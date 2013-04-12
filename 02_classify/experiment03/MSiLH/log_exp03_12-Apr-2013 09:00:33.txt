@@ -1,0 +1,80 @@
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 1 of 127 - features: H
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1639
+nu = 0.481268
+obj = -1033.484822, rho = -1.116682
+nSV = 1438, nBSV = 1230
+Total nSV = 1438
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1440
+nu = 0.472479
+obj = -1009.266593, rho = 1.153463
+nSV = 1422, nBSV = 1206
+Total nSV = 1422
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1608
+nu = 0.477279
+obj = -1026.930044, rho = 1.012118
+nSV = 1436, nBSV = 1222
+Total nSV = 1436
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1546
+nu = 0.463504
+obj = -998.706253, rho = 0.964951
+nSV = 1390, nBSV = 1186
+Total nSV = 1390
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1647
+nu = 0.479094
+obj = -1023.434813, rho = 1.028495
+nSV = 1430, nBSV = 1226
+Total nSV = 1430
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1717
+nu = 0.454904
+obj = -1201.708240, rho = 1.162447
+nSV = 1683, nBSV = 1473
+Total nSV = 1683
+AUC: 0.8336
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.82607
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 2 of 127 - features: r
+Feature <ri local binary pattern> selected
+number of features: 4116
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('rgb2gray', '/home/claudio/MATLAB/R2013a/toolbox/images/images/rgb2gray.m', 55)" style="font-weight:bold">rgb2gray</a> (<a href="matlab: opentoline('/home/claudio/MATLAB/R2013a/toolbox/images/images/rgb2gray.m',55,0)">line 55</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('extractFeatures', '/home/claudio/Development/Mitosi/01_Thesis/common/extractFeatures.m', 344)" style="font-weight:bold">extractFeatures</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/common/extractFeatures.m',344,0)">line 344</a>)
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,16,mapping,'nh');
+
+In <a href="matlab:helpUtils.errorDocCallback('experiment03', '/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment03/experiment03.m', 63)" style="font-weight:bold">experiment03</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment03/experiment03.m',63,0)">line 63</a>)
+	[ ~, t_cl01, ~, e_cl01, t_feat_n01, e_feat_n01 ] = extractFeatures(extTrainDataSet, extEvalDataSet, feats, extendT, extendE, normalize,
+    save_data, strcat(feats,'_norm_extA.mat'));
+} 
+experiment03

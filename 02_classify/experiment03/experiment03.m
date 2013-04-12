@@ -1,14 +1,21 @@
 % load data
 
-delete('log.txt')
 
-diary log.txt
+logfile = strcat('log_exp03_',datestr(now),'.txt');
+
+
+if ~exist('class','dir')
+	mkdir('class')
+end
+
+diary(logfile)
+
 
 load('../../extTrainDataSet.mat');
 load('../../extEvalDataSet.mat');
 
 % number of features
-n = 7;
+n = 5;
 
 combinations = dec2bin(1:2^n-1,n);
 
@@ -28,14 +35,10 @@ for k1 = 1:size(combinations,1)
 				case 2
 					feats = strcat(feats,'S');
 				case 3
-					feats = strcat(feats,'d');
-				case 4
 					feats = strcat(feats,'i');
+				case 4
+					feats = strcat(feats,'u');
 				case 5
-					feats = strcat(feats,'l');
-				case 6
-					feats = strcat(feats,'v');
-				case 7
 					feats = strcat(feats,'H');
 			end
 		end
@@ -56,6 +59,8 @@ for k1 = 1:size(combinations,1)
 	[ ~, t_cl01, ~, e_cl01, t_feat_n01, e_feat_n01 ] = extractFeatures(extTrainDataSet, extEvalDataSet, feats, extendT, extendE, normalize, save_data, strcat(feats,'_norm_extA.mat'));
 	
 	params = struct;
+	params.SMVstd = '-q';
+	params.SMVprob = '-q';
 	
 	res = classify_data( 'pr', params, t_feat_n01, t_cl01, e_feat_n01, e_cl01, extendE, show_data, save_data, strcat('class_',feats,'_norm_extA.mat'), strcat('feat_',feats,'-extA-ds_norm') );
 	

@@ -46,6 +46,8 @@ else
 	max_eval = 1;
 end
 
+neighbors = 8;
+
 train_features = [];
 train_classes = zeros(length(extTrainDataSet)*max_train,1);
 eval_features = [];
@@ -139,22 +141,22 @@ for j1 = 1:length(selected_features)
 		case 'l'
 			disp('Feature <18 riu2 local binary pattern> selected')
 			
-			mapping=getmapping(8,'riu2');
+			mapping=getmapping(neighbors,'riu2');
 			
-			nf = length(lbp(extEvalDataSet(1).data{1},1,8,mapping,'nh'));
+			nf = length(lbp(extEvalDataSet(1).data{1},1,neighbors,mapping,'nh'));
 			
 			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,nf);
 			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,nf);
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,8,mapping,'nh');
+					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,8,mapping,'nh');
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
@@ -266,7 +268,7 @@ for j1 = 1:length(selected_features)
 		case 'H'
 			disp('Feature <histograms of color distributions> selected')
 			
-			nbins = 15;
+			nbins = 16;
 			
 			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,3*nbins);
 			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,3*nbins);
@@ -284,6 +286,95 @@ for j1 = 1:length(selected_features)
 					for k3=1:3
 						tmp_eval_feat(max_eval*(k1-1) + k2,nbins*(k3-1)+1:nbins*k3) = imhist(extEvalDataSet(k1).data{k2}(:,:,k3),nbins);
 					end
+				end
+			end
+			
+			train_features = [train_features, tmp_train_feat];
+			eval_features = [eval_features, tmp_eval_feat];
+			
+		case 'L'
+			disp('Feature <18 riu2 local binary pattern> selected 3 different RADII 1-2-3')
+			
+			mapping=getmapping(neighbors,'riu2');
+			
+			nf = length(lbp(extEvalDataSet(1).data{1},1,neighbors,mapping,'nh'))*3;
+			
+			disp(['number of features: ',num2str(nf)]);
+			
+			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,nf);
+			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,nf);
+			
+			for k1 = 1:length(extTrainDataSet)
+				for k2=1:max_train
+					tmp_train_feat(max_train*(k1-1) + k2,:) = [lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'), ...
+																lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),2,neighbors,mapping,'nh'),...
+																lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),3,neighbors,mapping,'nh')];
+				end
+			end
+			
+			for k1 = 1:length(extEvalDataSet)
+				for k2=1:max_eval
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = [lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'), ...
+															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),2,neighbors,mapping,'nh'), ...
+															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),3,neighbors,mapping,'nh')];
+				end
+			end
+			
+			train_features = [train_features, tmp_train_feat];
+			eval_features = [eval_features, tmp_eval_feat];
+			
+		case 'r'
+			disp('Feature <ri local binary pattern> selected')
+			
+			mapping=getmapping(neighbors,'ri');
+			
+			feat01 = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+					
+			nf = length(feat01(isfinite(feat01)));
+			
+			disp(['number of features: ',num2str(nf)]);
+			
+			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,nf);
+			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,nf);
+			
+			for k1 = 1:length(extTrainDataSet)
+				for k2=1:max_train
+					feat01 = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+					tmp_train_feat(max_train*(k1-1) + k2,:) = feat01(isfinite(feat01));
+				end
+			end
+			
+			for k1 = 1:length(extEvalDataSet)
+				for k2=1:max_eval
+					feat01 = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = feat01(isfinite(feat01));
+				end
+			end
+			
+			train_features = [train_features, tmp_train_feat];
+			eval_features = [eval_features, tmp_eval_feat];
+			
+		case 'u'
+			disp('Feature <u2 local binary pattern> selected')
+			
+			mapping=getmapping(neighbors,'u2');
+			
+			nf = length(lbp(extEvalDataSet(1).data{1},1,neighbors,mapping,'nh'));
+			
+			disp(['number of features: ',num2str(nf)]);
+			
+			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,nf);
+			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,nf);
+			
+			for k1 = 1:length(extTrainDataSet)
+				for k2=1:max_train
+					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+				end
+			end
+			
+			for k1 = 1:length(extEvalDataSet)
+				for k2=1:max_eval
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
