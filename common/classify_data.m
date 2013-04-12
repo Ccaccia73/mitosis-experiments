@@ -87,10 +87,10 @@ for j1=1:length(classifiers)
 			
 			if isfield(parameters,'SMVprob')
 				params = strcat(parameters.SMVprob,' -b 1');
-				disp(['param:',params])
+				% disp(['param:',params])
 			else
 				params = '-b 1';
-				disp('NO param')
+				% disp('NO param')
 			end
 			
 			SVMmodel = libsvmtrain(train_class, train_features,params);

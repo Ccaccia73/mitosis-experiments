@@ -328,9 +328,7 @@ for j1 = 1:length(selected_features)
 			
 			mapping=getmapping(neighbors,'ri');
 			
-			feat01 = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
-					
-			nf = length(feat01(isfinite(feat01)));
+			nf = length(lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'));
 			
 			disp(['number of features: ',num2str(nf)]);
 			
@@ -339,15 +337,13 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					feat01 = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
-					tmp_train_feat(max_train*(k1-1) + k2,:) = feat01(isfinite(feat01));
+					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					feat01 = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
-					tmp_eval_feat(max_eval*(k1-1) + k2,:) = feat01(isfinite(feat01));
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			

@@ -37,9 +37,9 @@ for k1 = 1:size(combinations,1)
 				case 3
 					feats = strcat(feats,'i');
 				case 4
-					feats = strcat(feats,'u');
-				case 5
 					feats = strcat(feats,'H');
+				case 5
+					feats = strcat(feats,'r');
 			end
 		end
 	end

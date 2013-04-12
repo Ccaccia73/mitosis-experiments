@@ -27,8 +27,10 @@ switch nargin
 		end
 		
 end
-	
-Fnorm = bsxfun(@rdivide,bsxfun(@minus,inputF,Fmean),Fstd);
 
+if Fstd ~= 0
+	Fnorm = bsxfun(@rdivide,bsxfun(@minus,inputF,Fmean),Fstd);
+else
+	Fnorm = bsxfun(@minus,inputF,Fmean);
 end
 
