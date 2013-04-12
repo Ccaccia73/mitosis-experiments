@@ -21,4 +21,8 @@ slprj/
 # saved figures
 *.png
 *.jpg
+<<<<<<< HEAD
 *.jpeg
+=======
+*.jpeg
+>>>>>>> e6ed39cb6a07e8d5510281aeac44b424d7bdde9b
