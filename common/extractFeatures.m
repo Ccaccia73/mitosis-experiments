@@ -377,6 +377,30 @@ for j1 = 1:length(selected_features)
 			train_features = [train_features, tmp_train_feat];
 			eval_features = [eval_features, tmp_eval_feat];
 			
+		case 'V'
+			disp('Feature <pixel Variance - histogram> selected')
+			
+			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,36);
+			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,36);
+			
+			for k1 = 1:length(extTrainDataSet)
+				for k2=1:max_train
+					tmp_feat01 = cont(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors);
+					tmp_feat02 = imresize(tmp_feat01,[6 6]);
+					tmp_train_feat(max_train*(k1-1) + k2,:) = tmp_feat02(:)';
+				end
+			end
+			
+			for k1 = 1:length(extEvalDataSet)
+				for k2=1:max_eval
+					tmp_feat01 = cont(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),2,neighbors);
+					tmp_feat02 = imresize(tmp_feat01,[6 6]);
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = tmp_feat02(:)';
+				end
+			end
+			
+			train_features = [train_features, tmp_train_feat];
+			eval_features = [eval_features, tmp_eval_feat];
 		otherwise
 			disp('Feature not recognized')
 	end

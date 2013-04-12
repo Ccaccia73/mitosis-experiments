@@ -1,0 +1,81 @@
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <pixel Variance - histogram> selected
+Feature <histograms of color distributions> selected
+Feature <18 riu2 local binary pattern> selected 3 different RADII 1-2-3
+number of features: 30
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 1 of 63 - features: L
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.80737
+max Accuracy: 0.74138
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.82263
+max Accuracy: 0.75862
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 2 of 63 - features: H
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.8336
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.82607
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 3 of 63 - features: HL
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.87455
+max Accuracy: 0.81034
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.88836
+max Accuracy: 0.8046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 4 of 63 - features: V
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.42588
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.49359
+max Accuracy: 0.55172
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 5 of 63 - features: VL
+ 
+--------------------------
+Classify with SVM probabilistic
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('classify_data', '/home/claudio/Development/Mitosi/01_Thesis/common/classify_data.m', 96)" style="font-weight:bold">classify_data</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/common/classify_data.m',96,0)">line 96</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('experiment03', '/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment03/experiment03.m', 148)" style="font-weight:bold">experiment03</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment03/experiment03.m',148,0)">line 148</a>)
+	res = classify_data( 'pr', params, t_feat_n01, t_cl01, e_feat_n01, e_cl01, extendE, show_data, save_data,
+    strcat('class_',feats,'_norm_extA.mat'), strcat('feat_',feats,'-extA-ds_norm') );
+} 
+exit

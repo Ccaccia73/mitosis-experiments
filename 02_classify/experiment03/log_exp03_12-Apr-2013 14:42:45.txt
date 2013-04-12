@@ -1,0 +1,7 @@
+{Error: <a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/common/extractFeatures.m',394,171)">File: extractFeatures.m Line: 394 Column: 171
+</a>Unbalanced or unexpected parenthesis or bracket.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('experiment03', '/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment03/experiment03.m', 37)" style="font-weight:bold">experiment03</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment03/experiment03.m',37,0)">line 37</a>)
+	[ ~, te_data{j1,2}, ~, te_data{j1,4}, te_data{j1,1}, te_data{j1,3} ] = ...
+} 
+experiment03

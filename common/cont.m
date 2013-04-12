@@ -154,7 +154,7 @@ if lims
     
 end
 
-if strcmp(mode,'h') && ~lims
+if strcmp(mode,'h') && (sum(lims == 0))
     % Return histogram
     %epoint = round(max(result(:)));
     result=hist(result(:),0:1:1e4);

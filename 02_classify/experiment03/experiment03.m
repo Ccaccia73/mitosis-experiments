@@ -14,10 +14,32 @@ diary(logfile)
 load('../../extTrainDataSet.mat');
 load('../../extEvalDataSet.mat');
 
+features_type = 'MSiVHL';
+
 % number of features
-n = 5;
+n = length(features_type);
 
 combinations = dec2bin(1:2^n-1,n);
+
+
+extendT = true;
+extendE = true;
+normalize = true;
+save_data = true;
+show_data = true;
+
+
+te_data = cell(n,4);
+
+for j1=1:n
+	% (train - features STD) - train class - (eval features STD) - eval class - train
+	% features NORM - eval features NORM
+	[ ~, te_data{j1,2}, ~, te_data{j1,4}, te_data{j1,1}, te_data{j1,3} ] = ...
+	extractFeatures(extTrainDataSet, extEvalDataSet, features_type(j1), extendT, extendE, normalize, save_data, strcat(features_type(j1),'_norm_extA.mat') );
+end
+
+
+
 
 SVM_AUC = 0;
 SVM_acc = 0;
@@ -27,36 +49,97 @@ RF_acc = 0;
 
 for k1 = 1:size(combinations,1)
 	feats = [];
+	
+	t_feat_n01 = [];
+	t_cl01 = [];
+	e_feat_n01 = [];
+	e_cl01 = [];
+	
 	for k2=1:n
 		if combinations(k1,k2) == '1'
 			switch k2
 				case 1
 					feats = strcat(feats,'M');
+					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
+					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
+					
+					if isempty(t_cl01)
+						t_cl01 = te_data{k2,2};
+					end
+					
+					if isempty(e_cl01)
+						e_cl01 = te_data{k2,4};
+					end
 				case 2
 					feats = strcat(feats,'S');
+					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
+					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
+
+					if isempty(t_cl01)
+						t_cl01 = te_data{k2,2};
+					end
+					
+					if isempty(e_cl01)
+						e_cl01 = te_data{k2,4};
+					end
 				case 3
 					feats = strcat(feats,'i');
+					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
+					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
+
+					if isempty(t_cl01)
+						t_cl01 = te_data{k2,2};
+					end
+					
+					if isempty(e_cl01)
+						e_cl01 = te_data{k2,4};
+					end
 				case 4
-					feats = strcat(feats,'H');
+					feats = strcat(feats,'V');
+					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
+					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
+
+					if isempty(t_cl01)
+						t_cl01 = te_data{k2,2};
+					end
+					
+					if isempty(e_cl01)
+						e_cl01 = te_data{k2,4};
+					end
 				case 5
-					feats = strcat(feats,'r');
+					feats = strcat(feats,'H');
+					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
+					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
+
+					if isempty(t_cl01)
+						t_cl01 = te_data{k2,2};
+					end
+					
+					if isempty(e_cl01)
+						e_cl01 = te_data{k2,4};
+					end
+				case 6
+					feats = strcat(feats,'L');
+					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
+					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
+
+					if isempty(t_cl01)
+						t_cl01 = te_data{k2,2};
+					end
+					
+					if isempty(e_cl01)
+						e_cl01 = te_data{k2,4};
+					end
 			end
 		end
 	end
 	
 	
-	extendT = true;
-	extendE = true;
-	normalize = true;
-	save_data = true;
-	show_data = true;
 	
 	disp('°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°')
 	disp(' ')
 	disp(['experiment ',num2str(k1),' of ',num2str(size(combinations,1)),' - features: ',feats])
 
-	% mean std intensity - norm features - ext train
-	[ ~, t_cl01, ~, e_cl01, t_feat_n01, e_feat_n01 ] = extractFeatures(extTrainDataSet, extEvalDataSet, feats, extendT, extendE, normalize, save_data, strcat(feats,'_norm_extA.mat'));
 	
 	params = struct;
 	params.SMVstd = '-q';
