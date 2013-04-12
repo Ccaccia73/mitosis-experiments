@@ -1,0 +1,2357 @@
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 1 of 127 - features: H
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83743
+max Accuracy: 0.81034
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.833
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 2 of 127 - features: v
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.38208
+max Accuracy: 0.52299
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.5
+max Accuracy: 0.5
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 3 of 127 - features: vH
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.78002
+max Accuracy: 0.74138
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.83518
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 4 of 127 - features: l
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.74508
+max Accuracy: 0.7069
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.76912
+max Accuracy: 0.71264
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 5 of 127 - features: lH
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86431
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.86762
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 6 of 127 - features: lv
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.67321
+max Accuracy: 0.64943
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.73372
+max Accuracy: 0.67816
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 7 of 127 - features: lvH
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81021
+max Accuracy: 0.75287
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.85599
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 8 of 127 - features: i
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.71945
+max Accuracy: 0.68391
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.77243
+max Accuracy: 0.74138
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 9 of 127 - features: iH
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.82726
+max Accuracy: 0.77011
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.84265
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 10 of 127 - features: iv
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.47338
+max Accuracy: 0.52299
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.58416
+max Accuracy: 0.57471
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 11 of 127 - features: ivH
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.80354
+max Accuracy: 0.74138
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.83716
+max Accuracy: 0.77011
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 12 of 127 - features: il
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.8081
+max Accuracy: 0.76437
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.84152
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 13 of 127 - features: ilH
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86663
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.87449
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 14 of 127 - features: ilv
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.61078
+max Accuracy: 0.64943
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.79693
+max Accuracy: 0.74713
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 15 of 127 - features: ilvH
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83868
+max Accuracy: 0.7931
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86768
+max Accuracy: 0.81034
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 16 of 127 - features: d
+Feature <median per color> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.70795
+max Accuracy: 0.67816
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.57498
+max Accuracy: 0.60345
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 17 of 127 - features: dH
+Feature <median per color> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83908
+max Accuracy: 0.81609
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.83062
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 18 of 127 - features: dv
+Feature <median per color> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.55879
+max Accuracy: 0.6092
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=2
+
+AUC: 0.46109
+max Accuracy: 0.51724
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 19 of 127 - features: dvH
+Feature <median per color> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.78101
+max Accuracy: 0.75287
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.83274
+max Accuracy: 0.77011
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 20 of 127 - features: dl
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.77679
+max Accuracy: 0.71264
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.78438
+max Accuracy: 0.72414
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 21 of 127 - features: dlH
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86465
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.8657
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 22 of 127 - features: dlv
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.58885
+max Accuracy: 0.59195
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.75215
+max Accuracy: 0.7069
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 23 of 127 - features: dlvH
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81464
+max Accuracy: 0.75287
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.85936
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 24 of 127 - features: di
+Feature <median per color> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.739
+max Accuracy: 0.72414
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.77586
+max Accuracy: 0.74138
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 25 of 127 - features: diH
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.82891
+max Accuracy: 0.77011
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.83498
+max Accuracy: 0.77011
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 26 of 127 - features: div
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.49736
+max Accuracy: 0.54598
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.61838
+max Accuracy: 0.5977
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 27 of 127 - features: divH
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.80493
+max Accuracy: 0.74138
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.83981
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 28 of 127 - features: dil
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.79892
+max Accuracy: 0.77011
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.84529
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 29 of 127 - features: dilH
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86808
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86834
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 30 of 127 - features: dilv
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.6119
+max Accuracy: 0.64943
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.82237
+max Accuracy: 0.75862
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 31 of 127 - features: dilvH
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83934
+max Accuracy: 0.7931
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86478
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 32 of 127 - features: S
+Feature <std per color> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.68853
+max Accuracy: 0.67816
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.63905
+max Accuracy: 0.62644
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 33 of 127 - features: SH
+Feature <std per color> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83677
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.82574
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 34 of 127 - features: Sv
+Feature <std per color> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.67862
+max Accuracy: 0.66092
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=2
+
+AUC: 0.66257
+max Accuracy: 0.67241
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 35 of 127 - features: SvH
+Feature <std per color> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.78656
+max Accuracy: 0.73563
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.83465
+max Accuracy: 0.77011
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 36 of 127 - features: Sl
+Feature <std per color> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.77685
+max Accuracy: 0.73563
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.80764
+max Accuracy: 0.74138
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 37 of 127 - features: SlH
+Feature <std per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86643
+max Accuracy: 0.81609
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.8659
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 38 of 127 - features: Slv
+Feature <std per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.67222
+max Accuracy: 0.63793
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.78207
+max Accuracy: 0.72989
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 39 of 127 - features: SlvH
+Feature <std per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.82105
+max Accuracy: 0.75862
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.85956
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 40 of 127 - features: Si
+Feature <std per color> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.73834
+max Accuracy: 0.7069
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.77824
+max Accuracy: 0.74713
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 41 of 127 - features: SiH
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.8328
+max Accuracy: 0.77011
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.83122
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 42 of 127 - features: Siv
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.53263
+max Accuracy: 0.56322
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.73226
+max Accuracy: 0.68966
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 43 of 127 - features: SivH
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81015
+max Accuracy: 0.74138
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.8334
+max Accuracy: 0.77011
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 44 of 127 - features: Sil
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.82157
+max Accuracy: 0.78161
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.84351
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 45 of 127 - features: SilH
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.87013
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.87416
+max Accuracy: 0.81034
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 46 of 127 - features: Silv
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.64011
+max Accuracy: 0.67816
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.81847
+max Accuracy: 0.77011
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 47 of 127 - features: SilvH
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.84311
+max Accuracy: 0.7931
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86768
+max Accuracy: 0.7931
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 48 of 127 - features: Sd
+Feature <std per color> selected
+Feature <median per color> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.79125
+max Accuracy: 0.73563
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=2
+
+AUC: 0.73226
+max Accuracy: 0.68391
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 49 of 127 - features: SdH
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83769
+max Accuracy: 0.81609
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.83294
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 50 of 127 - features: Sdv
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.70525
+max Accuracy: 0.66667
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=2
+
+AUC: 0.73676
+max Accuracy: 0.68966
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 51 of 127 - features: SdvH
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.78973
+max Accuracy: 0.75287
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.82844
+max Accuracy: 0.77011
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 52 of 127 - features: Sdl
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.82435
+max Accuracy: 0.74713
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=4
+
+AUC: 0.82296
+max Accuracy: 0.75862
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 53 of 127 - features: SdlH
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86815
+max Accuracy: 0.81609
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.87039
+max Accuracy: 0.8046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 54 of 127 - features: Sdlv
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.64203
+max Accuracy: 0.62069
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=4
+
+AUC: 0.80777
+max Accuracy: 0.73563
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 55 of 127 - features: SdlvH
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.82362
+max Accuracy: 0.75862
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.86207
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 56 of 127 - features: Sdi
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.74402
+max Accuracy: 0.7069
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.78861
+max Accuracy: 0.75287
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 57 of 127 - features: SdiH
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83274
+max Accuracy: 0.77586
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.83426
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 58 of 127 - features: Sdiv
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.56467
+max Accuracy: 0.56897
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.7573
+max Accuracy: 0.70115
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 59 of 127 - features: SdivH
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81186
+max Accuracy: 0.74713
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.84456
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 60 of 127 - features: Sdil
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.80902
+max Accuracy: 0.78736
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.86042
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 61 of 127 - features: SdilH
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.87145
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86815
+max Accuracy: 0.8046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 62 of 127 - features: Sdilv
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.66449
+max Accuracy: 0.68966
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.83518
+max Accuracy: 0.77011
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 63 of 127 - features: SdilvH
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.84674
+max Accuracy: 0.7931
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86722
+max Accuracy: 0.81034
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 64 of 127 - features: M
+Feature <mean per color> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.7178
+max Accuracy: 0.71264
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.63654
+max Accuracy: 0.63793
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 65 of 127 - features: MH
+Feature <mean per color> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83763
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.83175
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 66 of 127 - features: Mv
+Feature <mean per color> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.66376
+max Accuracy: 0.64943
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=2
+
+AUC: 0.6232
+max Accuracy: 0.62644
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 67 of 127 - features: MvH
+Feature <mean per color> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.7828
+max Accuracy: 0.74713
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.83532
+max Accuracy: 0.7931
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 68 of 127 - features: Ml
+Feature <mean per color> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.78234
+max Accuracy: 0.72989
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.78121
+max Accuracy: 0.72989
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 69 of 127 - features: MlH
+Feature <mean per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86663
+max Accuracy: 0.81034
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.8618
+max Accuracy: 0.8046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 70 of 127 - features: Mlv
+Feature <mean per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.56368
+max Accuracy: 0.56897
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.75023
+max Accuracy: 0.72989
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 71 of 127 - features: MlvH
+Feature <mean per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81437
+max Accuracy: 0.75287
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.85533
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 72 of 127 - features: Mi
+Feature <mean per color> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.71859
+max Accuracy: 0.68966
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.78042
+max Accuracy: 0.74713
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 73 of 127 - features: MiH
+Feature <mean per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83241
+max Accuracy: 0.77011
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.84106
+max Accuracy: 0.7931
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 74 of 127 - features: Miv
+Feature <mean per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.48514
+max Accuracy: 0.54023
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.64758
+max Accuracy: 0.62644
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 75 of 127 - features: MivH
+Feature <mean per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.80698
+max Accuracy: 0.74713
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.84694
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 76 of 127 - features: Mil
+Feature <mean per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.80083
+max Accuracy: 0.75862
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.84648
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 77 of 127 - features: MilH
+Feature <mean per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86722
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.87977
+max Accuracy: 0.81034
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 78 of 127 - features: Milv
+Feature <mean per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.6127
+max Accuracy: 0.64943
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.80949
+max Accuracy: 0.74713
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 79 of 127 - features: MilvH
+Feature <mean per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.8406
+max Accuracy: 0.7931
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.87039
+max Accuracy: 0.8046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 80 of 127 - features: Md
+Feature <mean per color> selected
+Feature <median per color> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.75195
+max Accuracy: 0.7069
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=2
+
+AUC: 0.65887
+max Accuracy: 0.65517
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 81 of 127 - features: MdH
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.84007
+max Accuracy: 0.81034
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.82871
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 82 of 127 - features: Mdv
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.68054
+max Accuracy: 0.68391
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=2
+
+AUC: 0.61488
+max Accuracy: 0.64368
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 83 of 127 - features: MdvH
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.7863
+max Accuracy: 0.74713
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.83736
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 84 of 127 - features: Mdl
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.79707
+max Accuracy: 0.72989
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=4
+
+AUC: 0.78346
+max Accuracy: 0.71839
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 85 of 127 - features: MdlH
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86683
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.86782
+max Accuracy: 0.7931
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 86 of 127 - features: Mdlv
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.57702
+max Accuracy: 0.57471
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=4
+
+AUC: 0.75294
+max Accuracy: 0.72414
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 87 of 127 - features: MdlvH
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81662
+max Accuracy: 0.75287
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.86247
+max Accuracy: 0.7931
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 88 of 127 - features: Mdi
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.73999
+max Accuracy: 0.71839
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.77804
+max Accuracy: 0.73563
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 89 of 127 - features: MdiH
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83168
+max Accuracy: 0.77011
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.83743
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 90 of 127 - features: Mdiv
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.5294
+max Accuracy: 0.54598
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.68034
+max Accuracy: 0.66092
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 91 of 127 - features: MdivH
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.80783
+max Accuracy: 0.75287
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.84364
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 92 of 127 - features: Mdil
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.8009
+max Accuracy: 0.75862
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.85104
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 93 of 127 - features: MdilH
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86815
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.87224
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 94 of 127 - features: Mdilv
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.61858
+max Accuracy: 0.64368
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.82243
+max Accuracy: 0.76437
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 95 of 127 - features: MdilvH
+Feature <mean per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.84271
+max Accuracy: 0.7931
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86848
+max Accuracy: 0.8046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 96 of 127 - features: MS
+Feature <mean per color> selected
+Feature <std per color> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.79779
+max Accuracy: 0.73563
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=2
+
+AUC: 0.68622
+max Accuracy: 0.65517
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 97 of 127 - features: MSH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.8373
+max Accuracy: 0.81034
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.83109
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 98 of 127 - features: MSv
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.7067
+max Accuracy: 0.66092
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=2
+
+AUC: 0.71218
+max Accuracy: 0.65517
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 99 of 127 - features: MSvH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.78815
+max Accuracy: 0.75287
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.8293
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 100 of 127 - features: MSl
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.82263
+max Accuracy: 0.75862
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=4
+
+AUC: 0.81061
+max Accuracy: 0.75287
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 101 of 127 - features: MSlH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86788
+max Accuracy: 0.82184
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.86616
+max Accuracy: 0.81034
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 102 of 127 - features: MSlv
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.63066
+max Accuracy: 0.63218
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=4
+
+AUC: 0.80638
+max Accuracy: 0.74713
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 103 of 127 - features: MSlvH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.82468
+max Accuracy: 0.75862
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.8657
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 104 of 127 - features: MSi
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.74409
+max Accuracy: 0.71264
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.79753
+max Accuracy: 0.75862
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 105 of 127 - features: MSiH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83446
+max Accuracy: 0.77011
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.83399
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 106 of 127 - features: MSiv
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.57636
+max Accuracy: 0.57471
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.76602
+max Accuracy: 0.7069
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 107 of 127 - features: MSivH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81167
+max Accuracy: 0.74713
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.84119
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 108 of 127 - features: MSil
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81444
+max Accuracy: 0.77586
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.85493
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 109 of 127 - features: MSilH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.87178
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.8692
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 110 of 127 - features: MSilv
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.66336
+max Accuracy: 0.67816
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.83591
+max Accuracy: 0.77586
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 111 of 127 - features: MSilvH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.8474
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.87204
+max Accuracy: 0.81034
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 112 of 127 - features: MSd
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.78286
+max Accuracy: 0.72989
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.71529
+max Accuracy: 0.67241
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 113 of 127 - features: MSdH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83829
+max Accuracy: 0.81034
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.8258
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 114 of 127 - features: MSdv
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.6851
+max Accuracy: 0.64943
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.72823
+max Accuracy: 0.68391
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 115 of 127 - features: MSdvH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.78762
+max Accuracy: 0.75862
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=7
+
+AUC: 0.83261
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 116 of 127 - features: MSdl
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.82448
+max Accuracy: 0.75287
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=4
+
+AUC: 0.81418
+max Accuracy: 0.75862
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 117 of 127 - features: MSdlH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.86795
+max Accuracy: 0.81034
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.86696
+max Accuracy: 0.7931
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 118 of 127 - features: MSdlv
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.63866
+max Accuracy: 0.62644
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=4
+
+AUC: 0.80347
+max Accuracy: 0.75287
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 119 of 127 - features: MSdlvH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.826
+max Accuracy: 0.75862
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.86319
+max Accuracy: 0.7931
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 120 of 127 - features: MSdi
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.75215
+max Accuracy: 0.72414
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.79667
+max Accuracy: 0.75287
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 121 of 127 - features: MSdiH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.83617
+max Accuracy: 0.77586
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.83439
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 122 of 127 - features: MSdiv
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.59453
+max Accuracy: 0.5977
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.76787
+max Accuracy: 0.7069
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 123 of 127 - features: MSdivH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81266
+max Accuracy: 0.74713
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=8
+
+AUC: 0.83598
+max Accuracy: 0.76437
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 124 of 127 - features: MSdil
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.81041
+max Accuracy: 0.78161
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.86042
+max Accuracy: 0.78736
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 125 of 127 - features: MSdilH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.87171
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.87581
+max Accuracy: 0.8046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 126 of 127 - features: MSdilv
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.67208
+max Accuracy: 0.68391
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.84536
+max Accuracy: 0.78161
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 127 of 127 - features: MSdilvH
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <median per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.84846
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86907
+max Accuracy: 0.79885
+Best SVM AUC: 0.87178 with features MSilH
+Best SVM acc: 0.82184 with features MSlH
+Best RF AUC:  0.87977 with features MilH
+Best RF acc:  0.81034 with features ilvH

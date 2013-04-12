@@ -1,0 +1,570 @@
+ experiment03
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 1 of 31 - features: v
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+Warning: Area under ROC convex hull may be incorrect 
+> In rocplot at 130
+  In classify_data at 94
+  In experiment03 at 47 
+AUC: 0.37125
+max Accuracy: 0.51724
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.5
+max Accuracy: 0.5
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 2 of 31 - features: l
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.61673
+max Accuracy: 0.62644
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.61151
+max Accuracy: 0.62069
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 3 of 31 - features: lv
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.4531
+max Accuracy: 0.53448
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.57861
+max Accuracy: 0.6092
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 4 of 31 - features: i
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.71945
+max Accuracy: 0.68391
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+Warning: Area under ROC convex hull may be incorrect 
+> In rocplot at 130
+  In classify_data at 153
+  In experiment03 at 47 
+AUC: 0.77243
+max Accuracy: 0.74138
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 5 of 31 - features: iv
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.53613
+max Accuracy: 0.56897
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.59863
+max Accuracy: 0.60345
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 6 of 31 - features: il
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.7316
+max Accuracy: 0.67816
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.73273
+max Accuracy: 0.67241
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 7 of 31 - features: ilv
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.5909
+max Accuracy: 0.6092
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.65141
+max Accuracy: 0.63793
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 8 of 31 - features: s
+Feature <std> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.50218
+max Accuracy: 0.55172
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.46552
+max Accuracy: 0.5
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 9 of 31 - features: sv
+Feature <std> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.45237
+max Accuracy: 0.51149
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.46757
+max Accuracy: 0.52874
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 10 of 31 - features: sl
+Feature <std> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.61659
+max Accuracy: 0.64943
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.62683
+max Accuracy: 0.62069
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 11 of 31 - features: slv
+Feature <std> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.48567
+max Accuracy: 0.56897
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.58429
+max Accuracy: 0.61494
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 12 of 31 - features: si
+Feature <std> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.74501
+max Accuracy: 0.6954
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+Warning: Area under ROC convex hull may be incorrect 
+> In rocplot at 130
+  In classify_data at 153
+  In experiment03 at 47 
+AUC: 0.77296
+max Accuracy: 0.72989
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 13 of 31 - features: siv
+Feature <std> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.51209
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.62677
+max Accuracy: 0.60345
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 14 of 31 - features: sil
+Feature <std> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.75135
+max Accuracy: 0.68966
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.73081
+max Accuracy: 0.68391
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 15 of 31 - features: silv
+Feature <std> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.60034
+max Accuracy: 0.61494
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.65729
+max Accuracy: 0.64943
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 16 of 31 - features: m
+Feature <mean> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.59288
+max Accuracy: 0.60345
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.44828
+max Accuracy: 0.5
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 17 of 31 - features: mv
+Feature <mean> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.50575
+max Accuracy: 0.55172
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.50139
+max Accuracy: 0.55172
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 18 of 31 - features: ml
+Feature <mean> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.61706
+max Accuracy: 0.62069
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.63066
+max Accuracy: 0.62644
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 19 of 31 - features: mlv
+Feature <mean> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+Warning: Area under ROC convex hull may be incorrect 
+> In rocplot at 130
+  In classify_data at 94
+  In experiment03 at 47 
+AUC: 0.47278
+max Accuracy: 0.55172
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.59836
+max Accuracy: 0.6092
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 20 of 31 - features: mi
+Feature <mean> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.7141
+max Accuracy: 0.6954
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+Warning: Area under ROC convex hull may be incorrect 
+> In rocplot at 130
+  In classify_data at 153
+  In experiment03 at 47 
+AUC: 0.77038
+max Accuracy: 0.74138
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 21 of 31 - features: miv
+Feature <mean> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.49709
+max Accuracy: 0.55747
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.59433
+max Accuracy: 0.61494
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 22 of 31 - features: mil
+Feature <mean> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.73887
+max Accuracy: 0.67241
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.73458
+max Accuracy: 0.68966
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 23 of 31 - features: milv
+Feature <mean> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.55225
+max Accuracy: 0.5977
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.65966
+max Accuracy: 0.64368
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 24 of 31 - features: ms
+Feature <mean> selected
+Feature <std> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.56507
+max Accuracy: 0.59195
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.50522
+max Accuracy: 0.54023
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 25 of 31 - features: msv
+Feature <mean> selected
+Feature <std> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.5037
+max Accuracy: 0.55172
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=1
+
+AUC: 0.53455
+max Accuracy: 0.55172
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 26 of 31 - features: msl
+Feature <mean> selected
+Feature <std> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.63654
+max Accuracy: 0.62644
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.63661
+max Accuracy: 0.62644
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 27 of 31 - features: mslv
+Feature <mean> selected
+Feature <std> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.50779
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=3
+
+AUC: 0.60437
+max Accuracy: 0.61494
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 28 of 31 - features: msi
+Feature <mean> selected
+Feature <std> selected
+Feature <25 central intensities> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.73055
+max Accuracy: 0.68391
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+Warning: Area under ROC convex hull may be incorrect 
+> In rocplot at 130
+  In classify_data at 153
+  In experiment03 at 47 
+AUC: 0.7754
+max Accuracy: 0.74138
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 29 of 31 - features: msiv
+Feature <mean> selected
+Feature <std> selected
+Feature <25 central intensities> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.47628
+max Accuracy: 0.56897
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.63971
+max Accuracy: 0.60345
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 30 of 31 - features: msil
+Feature <mean> selected
+Feature <std> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.7505
+max Accuracy: 0.67816
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.72599
+max Accuracy: 0.67816
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 31 of 31 - features: msilv
+Feature <mean> selected
+Feature <std> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+ 
+--------------------------
+Classify with SVM probabilistic
+AUC: 0.56487
+max Accuracy: 0.59195
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=6
+
+AUC: 0.66885
+max Accuracy: 0.64368

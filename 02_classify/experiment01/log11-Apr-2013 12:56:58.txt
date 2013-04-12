@@ -1,0 +1,287 @@
+Feature <mean> selected
+Feature <std> selected
+Feature <25 central intensities> selected
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying msi with standard features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1572
+nu = 0.827901
+obj = -2734.389563, rho = 7.478748
+nSV = 2868, nBSV = 2846
+Total nSV = 2868
+AUC: 0.73504
+max Accuracy: 0.72989
+ 
+--------------------------
+Classify with SVM probabilistic
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1301
+nu = 0.836726
+obj = -2206.537703, rho = -6.089734
+nSV = 2322, nBSV = 2306
+Total nSV = 2322
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1276
+nu = 0.829016
+obj = -2182.830068, rho = 6.163048
+nSV = 2302, nBSV = 2284
+Total nSV = 2302
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1278
+nu = 0.835118
+obj = -2196.621670, rho = 6.321928
+nSV = 2315, nBSV = 2302
+Total nSV = 2315
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1314
+nu = 0.844341
+obj = -2226.715641, rho = 6.003526
+nSV = 2344, nBSV = 2329
+Total nSV = 2344
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1295
+nu = 0.844017
+obj = -2228.718083, rho = 5.741394
+nSV = 2340, nBSV = 2325
+Total nSV = 2340
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1572
+nu = 0.827901
+obj = -2734.389563, rho = 7.478748
+nSV = 2868, nBSV = 2846
+Total nSV = 2868
+AUC: 0.79198
+max Accuracy: 0.74138
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.77652
+max Accuracy: 0.74713
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying msi with normalized features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+..*.*
+optimization finished, #iter = 3583
+nu = 0.516679
+obj = -1407.600849, rho = 1.122053
+nSV = 2128, nBSV = 1496
+Total nSV = 2128
+AUC: 0.64678
+max Accuracy: 0.64943
+ 
+--------------------------
+Classify with SVM probabilistic
+.*.*
+optimization finished, #iter = 2706
+nu = 0.531334
+obj = -1150.370505, rho = -1.103874
+nSV = 1738, nBSV = 1247
+Total nSV = 1738
+..*
+optimization finished, #iter = 2829
+nu = 0.530712
+obj = -1157.975346, rho = 1.106253
+nSV = 1734, nBSV = 1229
+Total nSV = 1734
+.
+WARNING: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2666
+nu = 0.531449
+obj = -1162.543113, rho = 1.116790
+nSV = 1733, nBSV = 1242
+Total nSV = 1733
+.
+WARNING: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2644
+nu = 0.526236
+obj = -1142.504883, rho = 1.060937
+nSV = 1732, nBSV = 1245
+Total nSV = 1732
+..*
+optimization finished, #iter = 2886
+nu = 0.537675
+obj = -1174.948524, rho = 0.977793
+nSV = 1775, nBSV = 1240
+Total nSV = 1775
+..*.*
+optimization finished, #iter = 3583
+nu = 0.516679
+obj = -1407.600849, rho = 1.122053
+nSV = 2128, nBSV = 1496
+Total nSV = 2128
+AUC: 0.73055
+max Accuracy: 0.68391
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.7754
+max Accuracy: 0.74138
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <mean of pixel Variance> selected
+Feature <histograms of color distributions> selected
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying ilvH with standard features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+.*...*
+optimization finished, #iter = 4124
+nu = 0.125822
+obj = -217.424915, rho = 0.001830
+nSV = 2754, nBSV = 0
+Total nSV = 2754
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with SVM probabilistic
+.*..*
+optimization finished, #iter = 3514
+nu = 0.157251
+obj = -217.390597, rho = -0.001762
+nSV = 2393, nBSV = 0
+Total nSV = 2393
+.*..*
+optimization finished, #iter = 3693
+nu = 0.157242
+obj = -217.394017, rho = 0.001783
+nSV = 2410, nBSV = 0
+Total nSV = 2410
+.*..*
+optimization finished, #iter = 3731
+nu = 0.157244
+obj = -217.392633, rho = 0.001774
+nSV = 2420, nBSV = 0
+Total nSV = 2420
+.*..*
+optimization finished, #iter = 3812
+nu = 0.157245
+obj = -217.394701, rho = 0.001781
+nSV = 2439, nBSV = 0
+Total nSV = 2439
+.*..*
+optimization finished, #iter = 3573
+nu = 0.157294
+obj = -217.389428, rho = 0.001789
+nSV = 2384, nBSV = 0
+Total nSV = 2384
+.*...*
+optimization finished, #iter = 4124
+nu = 0.125822
+obj = -217.424915, rho = 0.001830
+nSV = 2754, nBSV = 0
+Total nSV = 2754
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86887
+max Accuracy: 0.8046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying ilvH with normalized features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4224
+nu = 0.301676
+obj = -669.273072, rho = 1.129456
+nSV = 1490, nBSV = 668
+Total nSV = 1490
+AUC: 0.78868
+max Accuracy: 0.78161
+ 
+--------------------------
+Classify with SVM probabilistic
+..*
+optimization finished, #iter = 2972
+nu = 0.322996
+obj = -583.676213, rho = -1.037700
+nSV = 1213, nBSV = 613
+Total nSV = 1213
+.*.*
+optimization finished, #iter = 2821
+nu = 0.318293
+obj = -577.851165, rho = 1.013303
+nSV = 1204, nBSV = 609
+Total nSV = 1204
+.*.*
+optimization finished, #iter = 2940
+nu = 0.328333
+obj = -597.755911, rho = 1.054053
+nSV = 1237, nBSV = 637
+Total nSV = 1237
+.*.*
+optimization finished, #iter = 2993
+nu = 0.319706
+obj = -583.768410, rho = 1.028044
+nSV = 1227, nBSV = 617
+Total nSV = 1227
+.*..*
+optimization finished, #iter = 3062
+nu = 0.330646
+obj = -595.660200, rho = 1.086707
+nSV = 1257, nBSV = 628
+Total nSV = 1257
+..*..*
+optimization finished, #iter = 4224
+nu = 0.301676
+obj = -669.273072, rho = 1.129456
+nSV = 1490, nBSV = 668
+Total nSV = 1490
+AUC: 0.83868
+max Accuracy: 0.7931
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=9
+
+AUC: 0.86768
+max Accuracy: 0.81034
+Feature <mean per color> selected
+Feature <25 central intensities> selected
+Feature <18 riu2 local binary pattern> selected
+Feature <histograms of color distributions> selected
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('imhist>parse_inputs', '/home/claudio/MATLAB/R2013a/toolbox/images/images/imhist.m', 275)" style="font-weight:bold">imhist>parse_inputs</a> (<a href="matlab: opentoline('/home/claudio/MATLAB/R2013a/toolbox/images/images/imhist.m',275,0)">line 275</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('imhist', '/home/claudio/MATLAB/R2013a/toolbox/images/images/imhist.m', 59)" style="font-weight:bold">imhist</a> (<a href="matlab: opentoline('/home/claudio/MATLAB/R2013a/toolbox/images/images/imhist.m',59,0)">line 59</a>)
+[a, n, isScaled, top, map] = parse_inputs(varargin{:});
+
+In <a href="matlab:helpUtils.errorDocCallback('extractFeatures', '/home/claudio/Development/Mitosi/01_Thesis/common/extractFeatures.m', 277)" style="font-weight:bold">extractFeatures</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/common/extractFeatures.m',277,0)">line 277</a>)
+						tmp_train_feat(max_train*(k1-1) + k2,nbins*(k3-1)+1:nbins*k3) = imhist(extTrainDataSet(k1).data{k2}(:,:,k3),nbins);
+
+In <a href="matlab:helpUtils.errorDocCallback('experiment01', '/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment01/experiment01.m', 35)" style="font-weight:bold">experiment01</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment01/experiment01.m',35,0)">line 35</a>)
+	[ t_feat01, t_cl01, e_feat01, e_cl01, t_feat_n01, e_feat_n01 ] = extractFeatures(extTrainDataSet, extEvalDataSet, feats, extendT,
+    extendE, normalize, save_data, strcat(feats,'_norm_extA.mat'));
+} 
+experiment01
