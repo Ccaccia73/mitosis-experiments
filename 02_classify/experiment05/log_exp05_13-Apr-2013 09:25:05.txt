@@ -1,0 +1,562 @@
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <pixel Variance - histogram> selected
+Feature <histograms of color distributions> selected
+Feature <18 riu2 local binary pattern> selected 3 different RADII 1-2-3
+number of features: 30
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 1 of 40 - options: -t 2-d 3
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 3
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 2 of 40 - options: -t 2-d 3-v 3
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 3-v 3
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 3 of 40 - options: -t 2-d 3-v 5
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 3-v 5
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 4 of 40 - options: -t 2-d 3-v 10
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 3-v 10
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 5 of 40 - options: -t 2-d 4
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 4
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 6 of 40 - options: -t 2-d 4-v 3
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 4-v 3
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 7 of 40 - options: -t 2-d 4-v 5
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 4-v 5
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 8 of 40 - options: -t 2-d 4-v 10
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 4-v 10
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 9 of 40 - options: -t 2-d 5
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 5
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 10 of 40 - options: -t 2-d 5-v 3
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+param:-b 1-t 2-d 5-v 3
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('classify_data', '/home/claudio/Development/Mitosi/01_Thesis/common/classify_data.m', 96)" style="font-weight:bold">classify_data</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/common/classify_data.m',96,0)">line 96</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('experiment05', '/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment05/experiment05.m', 64)" style="font-weight:bold">experiment05</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment05/experiment05.m',64,0)">line 64</a>)
+			res = classify_data( 'sp', params, t_feat_n01, t_cl01, e_feat_n01, e_cl01, extendE, show_data, save_data,
+            strcat('class_',feats,'_norm_extA.mat'), strcat('feat_',feats,'-opts',num2str(i1,'%03d'),'} 
+exit

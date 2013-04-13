@@ -1,0 +1,43 @@
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <pixel Variance - histogram> selected
+Feature <histograms of color distributions> selected
+Feature <18 riu2 local binary pattern> selected 3 different RADII 1-2-3
+number of features: 30
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 1 of 40 - options: -t 2-d 3
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+Model does not support probabiliy estimates
+{Error using <a href="matlab:helpUtils.errorDocCallback('eq')" style="font-weight:bold"> == </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('rocplot', '/home/claudio/Development/Mitosi/01_Thesis/rocplot/rocplot.m', 116)" style="font-weight:bold">rocplot</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/rocplot/rocplot.m',116,0)">line 116</a>)
+acc0 = mean(result0 == classes);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('classify_data', '/home/claudio/Development/Mitosi/01_Thesis/common/classify_data.m', 110)" style="font-weight:bold">classify_data</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/common/classify_data.m',110,0)">line 110</a>)
+				[SVMprob.AUC, SVMprob.AUH, SVMprob.acc0, SVMprob.accM ,SVMprob.thrM, SVMprob.thr, SVMprob.acc, SVMprob.sens, SVMprob.spec,
+                SVMprob.hull] = rocplot(SVMprob.prob_estimates(:,1),eval_class(1:8:end)
+Error in <a href="matlab:helpUtils.errorDocCallback('experiment05', '/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment05/experiment05.m', 64)" style="font-weight:bold">experiment05</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment05/experiment05.m',64,0)">line 64</a>)
+			res = classify_data( 'sp', params, t_feat_n01, t_cl01, e_feat_n01, e_cl01, extendE, show_data, save_data,
+            strcat('class_',feats,'_norm_extA.mat'), strcat('feat_',feats,'-opts',num2str(i1,'%03d'),'} 
+experiment05
