@@ -14,7 +14,7 @@ diary(logfile)
 load('../../extTrainDataSet.mat');
 load('../../extEvalDataSet.mat');
 
-features_type = 'MSiVHL';
+features_type = 'MSiVHU';
 
 % number of features
 n = length(features_type);
