@@ -1,0 +1,512 @@
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <ri local binary pattern> selected, 3 different RADII 1-2-3
+number of features: 108
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features default datasets
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+.*
+optimization finished, #iter = 588
+nu = 0.971098
+obj = -172.719080, rho = 0.056180
+nSV = 346, nBSV = 168
+Total nSV = 346
+.*
+optimization finished, #iter = 587
+nu = 0.965318
+obj = -172.597746, rho = 0.067039
+nSV = 346, nBSV = 167
+Total nSV = 346
+.*
+optimization finished, #iter = 550
+nu = 0.985507
+obj = -172.428555, rho = -0.028571
+nSV = 345, nBSV = 170
+Total nSV = 345
+.*
+optimization finished, #iter = 478
+nu = 0.942197
+obj = -171.907097, rho = -0.109290
+nSV = 346, nBSV = 163
+Total nSV = 346
+.*
+optimization finished, #iter = 498
+nu = 0.991304
+obj = -172.474119, rho = 0.017241
+nSV = 345, nBSV = 171
+Total nSV = 345
+*
+optimization finished, #iter = 216
+nu = 1.000000
+obj = -216.000000, rho = 0.000000
+nSV = 432, nBSV = 432
+Total nSV = 432
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=13
+
+AUC: 0.88803
+max Accuracy: 0.82184
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <ri local binary pattern> selected, 3 different RADII 1-2-3
+number of features: 108
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended train set
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+*...*
+optimization finished, #iter = 3008
+nu = 0.156682
+obj = -216.596492, rho = -0.000765
+nSV = 2225, nBSV = 0
+Total nSV = 2225
+*...*.*
+optimization finished, #iter = 3077
+nu = 0.156677
+obj = -216.599802, rho = 0.000773
+nSV = 2346, nBSV = 0
+Total nSV = 2346
+*...*
+optimization finished, #iter = 3136
+nu = 0.156678
+obj = -216.599515, rho = 0.000767
+nSV = 2338, nBSV = 0
+Total nSV = 2338
+*...*.*
+optimization finished, #iter = 3063
+nu = 0.156677
+obj = -216.599986, rho = 0.000773
+nSV = 2329, nBSV = 0
+Total nSV = 2329
+*..*
+optimization finished, #iter = 2989
+nu = 0.156732
+obj = -216.598305, rho = 0.000778
+nSV = 2310, nBSV = 0
+Total nSV = 2310
+*...*.*
+optimization finished, #iter = 3363
+nu = 0.125360
+obj = -216.612990, rho = 0.000796
+nSV = 2630, nBSV = 0
+Total nSV = 2630
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=13
+
+AUC: 0.89913
+max Accuracy: 0.81609
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <ri local binary pattern> selected, 3 different RADII 1-2-3
+number of features: 108
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended test set
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+.*
+optimization finished, #iter = 588
+nu = 0.971098
+obj = -172.719080, rho = 0.056180
+nSV = 346, nBSV = 168
+Total nSV = 346
+.*
+optimization finished, #iter = 587
+nu = 0.965318
+obj = -172.597746, rho = 0.067039
+nSV = 346, nBSV = 167
+Total nSV = 346
+.*
+optimization finished, #iter = 550
+nu = 0.985507
+obj = -172.428555, rho = -0.028571
+nSV = 345, nBSV = 170
+Total nSV = 345
+.*
+optimization finished, #iter = 478
+nu = 0.942197
+obj = -171.907097, rho = -0.109290
+nSV = 346, nBSV = 163
+Total nSV = 346
+.*
+optimization finished, #iter = 498
+nu = 0.991304
+obj = -172.474119, rho = 0.017241
+nSV = 345, nBSV = 171
+Total nSV = 345
+*
+optimization finished, #iter = 216
+nu = 1.000000
+obj = -216.000000, rho = 0.000000
+nSV = 432, nBSV = 432
+Total nSV = 432
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=13
+
+AUC: 0.89252
+max Accuracy: 0.81609
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <ri local binary pattern> selected, 3 different RADII 1-2-3
+number of features: 108
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended All sets
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+*...*
+optimization finished, #iter = 3008
+nu = 0.156682
+obj = -216.596492, rho = -0.000765
+nSV = 2225, nBSV = 0
+Total nSV = 2225
+*...*.*
+optimization finished, #iter = 3077
+nu = 0.156677
+obj = -216.599802, rho = 0.000773
+nSV = 2346, nBSV = 0
+Total nSV = 2346
+*...*
+optimization finished, #iter = 3136
+nu = 0.156678
+obj = -216.599515, rho = 0.000767
+nSV = 2338, nBSV = 0
+Total nSV = 2338
+*...*.*
+optimization finished, #iter = 3063
+nu = 0.156677
+obj = -216.599986, rho = 0.000773
+nSV = 2329, nBSV = 0
+Total nSV = 2329
+*..*
+optimization finished, #iter = 2989
+nu = 0.156732
+obj = -216.598305, rho = 0.000778
+nSV = 2310, nBSV = 0
+Total nSV = 2310
+*...*.*
+optimization finished, #iter = 3363
+nu = 0.125360
+obj = -216.612990, rho = 0.000796
+nSV = 2630, nBSV = 0
+Total nSV = 2630
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=13
+
+AUC: 0.89583
+max Accuracy: 0.81034
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <u2 local binary pattern> selected, 3 different RADII 1-2-3
+number of features: 177
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features default datasets
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+*.*
+optimization finished, #iter = 389
+nu = 0.606308
+obj = -128.032209, rho = -0.685258
+nSV = 291, nBSV = 133
+Total nSV = 291
+*.*
+optimization finished, #iter = 399
+nu = 0.599952
+obj = -128.200047, rho = -0.777426
+nSV = 289, nBSV = 128
+Total nSV = 289
+*.*
+optimization finished, #iter = 386
+nu = 0.633594
+obj = -131.766082, rho = -0.751674
+nSV = 298, nBSV = 138
+Total nSV = 298
+*.*
+optimization finished, #iter = 371
+nu = 0.567811
+obj = -119.900693, rho = -0.877927
+nSV = 277, nBSV = 120
+Total nSV = 277
+*.*
+optimization finished, #iter = 382
+nu = 0.612682
+obj = -129.181086, rho = -0.756032
+nSV = 293, nBSV = 133
+Total nSV = 293
+*.*
+optimization finished, #iter = 478
+nu = 0.578272
+obj = -152.609615, rho = 0.795084
+nSV = 350, nBSV = 152
+Total nSV = 350
+AUC: 0.86009
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=16
+
+AUC: 0.85295
+max Accuracy: 0.78736
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <u2 local binary pattern> selected, 3 different RADII 1-2-3
+number of features: 177
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended train set
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+.*.*
+optimization finished, #iter = 2716
+nu = 0.398618
+obj = -714.474046, rho = -1.164982
+nSV = 1557, nBSV = 694
+Total nSV = 1557
+.*.*
+optimization finished, #iter = 2688
+nu = 0.391088
+obj = -701.341810, rho = 1.084559
+nSV = 1549, nBSV = 676
+Total nSV = 1549
+.*.*
+optimization finished, #iter = 2696
+nu = 0.398692
+obj = -717.702437, rho = 1.090336
+nSV = 1576, nBSV = 695
+Total nSV = 1576
+.*.*
+optimization finished, #iter = 2811
+nu = 0.393462
+obj = -706.225974, rho = 1.158656
+nSV = 1536, nBSV = 659
+Total nSV = 1536
+.*.*
+optimization finished, #iter = 2626
+nu = 0.400980
+obj = -723.918894, rho = 1.139144
+nSV = 1572, nBSV = 719
+Total nSV = 1572
+..*.*
+optimization finished, #iter = 3549
+nu = 0.377519
+obj = -845.794407, rho = 1.164707
+nSV = 1876, nBSV = 798
+Total nSV = 1876
+AUC: 0.87119
+max Accuracy: 0.81034
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=16
+
+AUC: 0.85744
+max Accuracy: 0.7931
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <u2 local binary pattern> selected, 3 different RADII 1-2-3
+number of features: 177
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended test set
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+*.*
+optimization finished, #iter = 389
+nu = 0.606308
+obj = -128.032209, rho = -0.685258
+nSV = 291, nBSV = 133
+Total nSV = 291
+*.*
+optimization finished, #iter = 399
+nu = 0.599952
+obj = -128.200047, rho = -0.777426
+nSV = 289, nBSV = 128
+Total nSV = 289
+*.*
+optimization finished, #iter = 386
+nu = 0.633594
+obj = -131.766082, rho = -0.751674
+nSV = 298, nBSV = 138
+Total nSV = 298
+*.*
+optimization finished, #iter = 371
+nu = 0.567811
+obj = -119.900693, rho = -0.877927
+nSV = 277, nBSV = 120
+Total nSV = 277
+*.*
+optimization finished, #iter = 382
+nu = 0.612682
+obj = -129.181086, rho = -0.756032
+nSV = 293, nBSV = 133
+Total nSV = 293
+*.*
+optimization finished, #iter = 478
+nu = 0.578272
+obj = -152.609615, rho = 0.795084
+nSV = 350, nBSV = 152
+Total nSV = 350
+AUC: 0.87244
+max Accuracy: 0.81609
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=16
+
+AUC: 0.86438
+max Accuracy: 0.78161
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <u2 local binary pattern> selected, 3 different RADII 1-2-3
+number of features: 177
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended All sets
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+.*.*
+optimization finished, #iter = 2716
+nu = 0.398618
+obj = -714.474046, rho = -1.164982
+nSV = 1557, nBSV = 694
+Total nSV = 1557
+.*.*
+optimization finished, #iter = 2688
+nu = 0.391088
+obj = -701.341810, rho = 1.084559
+nSV = 1549, nBSV = 676
+Total nSV = 1549
+.*.*
+optimization finished, #iter = 2696
+nu = 0.398692
+obj = -717.702437, rho = 1.090336
+nSV = 1576, nBSV = 695
+Total nSV = 1576
+.*.*
+optimization finished, #iter = 2811
+nu = 0.393462
+obj = -706.225974, rho = 1.158656
+nSV = 1536, nBSV = 659
+Total nSV = 1536
+.*.*
+optimization finished, #iter = 2626
+nu = 0.400980
+obj = -723.918894, rho = 1.139144
+nSV = 1572, nBSV = 719
+Total nSV = 1572
+..*.*
+optimization finished, #iter = 3549
+nu = 0.377519
+obj = -845.794407, rho = 1.164707
+nSV = 1876, nBSV = 798
+Total nSV = 1876
+AUC: 0.8764
+max Accuracy: 0.81609
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=16
+
+AUC: 0.85546
+max Accuracy: 0.77586

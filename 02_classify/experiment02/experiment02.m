@@ -2,6 +2,7 @@
 
 logfile = strcat('log_exp02_',datestr(now),'.txt');
 
+diary logfile
 
 load('../../extTrainDataSet.mat');
 load('../../extEvalDataSet.mat');
@@ -13,7 +14,7 @@ end
 
 % memo : extend train - extend eval - normalize - save
 
-feats = 'MSiHr';
+feats = 'MSiHR';
 normalize = true;
 save_data = true;
 show_data = true;
@@ -101,7 +102,7 @@ classify_data( 'pr', params, t_feat_n04, t_cl04, e_feat_n04, e_cl04, extendE, sh
 %°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
 
 
-feats = 'MSiHu';
+feats = 'MSiHU';
 normalize = true;
 save_data = true;
 show_data = true;
@@ -182,4 +183,4 @@ disp('Classifying mean+std+intensities with normalized features extended All set
 disp(' ')
 classify_data( 'pr', params, t_feat_n14, t_cl14, e_feat_n14, e_cl14, extendE, show_data, save_data, strcat('class_',feats,'_norm_extA.mat'), strcat('feat_',feats,'-extA-ds_norm') );
 
-
+diary off

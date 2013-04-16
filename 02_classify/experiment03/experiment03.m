@@ -57,79 +57,16 @@ for k1 = 1:size(combinations,1)
 	
 	for k2=1:n
 		if combinations(k1,k2) == '1'
-			switch k2
-				case 1
-					feats = strcat(feats,'M');
-					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
-					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
-					
-					if isempty(t_cl01)
-						t_cl01 = te_data{k2,2};
-					end
-					
-					if isempty(e_cl01)
-						e_cl01 = te_data{k2,4};
-					end
-				case 2
-					feats = strcat(feats,'S');
-					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
-					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
-
-					if isempty(t_cl01)
-						t_cl01 = te_data{k2,2};
-					end
-					
-					if isempty(e_cl01)
-						e_cl01 = te_data{k2,4};
-					end
-				case 3
-					feats = strcat(feats,'i');
-					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
-					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
-
-					if isempty(t_cl01)
-						t_cl01 = te_data{k2,2};
-					end
-					
-					if isempty(e_cl01)
-						e_cl01 = te_data{k2,4};
-					end
-				case 4
-					feats = strcat(feats,'V');
-					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
-					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
-
-					if isempty(t_cl01)
-						t_cl01 = te_data{k2,2};
-					end
-					
-					if isempty(e_cl01)
-						e_cl01 = te_data{k2,4};
-					end
-				case 5
-					feats = strcat(feats,'H');
-					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
-					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
-
-					if isempty(t_cl01)
-						t_cl01 = te_data{k2,2};
-					end
-					
-					if isempty(e_cl01)
-						e_cl01 = te_data{k2,4};
-					end
-				case 6
-					feats = strcat(feats,'L');
-					t_feat_n01 = [t_feat_n01,te_data{k2,1}];
-					e_feat_n01 = [e_feat_n01,te_data{k2,3}];
-
-					if isempty(t_cl01)
-						t_cl01 = te_data{k2,2};
-					end
-					
-					if isempty(e_cl01)
-						e_cl01 = te_data{k2,4};
-					end
+			feats = strcat(feats,features_type(k2));
+			t_feat_n01 = [t_feat_n01,te_data{k2,1}];
+			e_feat_n01 = [e_feat_n01,te_data{k2,3}];
+			
+			if isempty(t_cl01)
+				t_cl01 = te_data{k2,2};
+			end
+			
+			if isempty(e_cl01)
+				e_cl01 = te_data{k2,4};
 			end
 		end
 	end

@@ -506,4 +506,181 @@ optimization finished, #iter = 2727
 nu = 0.386503
 obj = -679.764844, rho = -1.104314
 nSV = 1542, nBSV = 633
-Total 
+Total nSV = 1542
+.*.*
+optimization finished, #iter = 2598
+nu = 0.377484
+obj = -664.706118, rho = 1.008111
+nSV = 1495, nBSV = 597
+Total nSV = 1495
+.*.*
+optimization finished, #iter = 2788
+nu = 0.382105
+obj = -671.339377, rho = 1.029040
+nSV = 1543, nBSV = 599
+Total nSV = 1543
+.*.*
+optimization finished, #iter = 2706
+nu = 0.381711
+obj = -668.511550, rho = 1.067816
+nSV = 1537, nBSV = 608
+Total nSV = 1537
+.*.*
+optimization finished, #iter = 2740
+nu = 0.385268
+obj = -679.920153, rho = 1.107484
+nSV = 1554, nBSV = 630
+Total nSV = 1554
+..*.*
+optimization finished, #iter = 3670
+nu = 0.362348
+obj = -795.035045, rho = 1.116409
+nSV = 1856, nBSV = 670
+Total nSV = 1856
+AUC: 0.88374
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=17
+
+AUC: 0.8836
+max Accuracy: 0.8046
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <u2 local binary pattern> selected, 3 different RADII 1-2-3
+number of features: 177
+Feature <pixel Variance - 36 means> selected
+number of features: 36
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSiHUV with standard features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+*...*.*
+optimization finished, #iter = 3043
+nu = 0.125247
+obj = -216.397453, rho = 0.000528
+nSV = 2547, nBSV = 11
+Total nSV = 2547
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with SVM probabilistic
+*..*.*
+optimization finished, #iter = 2405
+nu = 0.156536
+obj = -216.380621, rho = -0.000484
+nSV = 1984, nBSV = 14
+Total nSV = 1984
+*..*.*
+optimization finished, #iter = 2805
+nu = 0.156540
+obj = -216.388657, rho = 0.000514
+nSV = 2269, nBSV = 12
+Total nSV = 2269
+*..*
+optimization finished, #iter = 2745
+nu = 0.156542
+obj = -216.388148, rho = 0.000511
+nSV = 2230, nBSV = 11
+Total nSV = 2230
+*..*
+optimization finished, #iter = 2900
+nu = 0.156538
+obj = -216.391412, rho = 0.000515
+nSV = 2305, nBSV = 0
+Total nSV = 2305
+*..*
+optimization finished, #iter = 2839
+nu = 0.156594
+obj = -216.387914, rho = 0.000514
+nSV = 2273, nBSV = 11
+Total nSV = 2273
+*...*.*
+optimization finished, #iter = 3043
+nu = 0.125247
+obj = -216.397453, rho = 0.000528
+nSV = 2547, nBSV = 11
+Total nSV = 2547
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=17
+
+AUC: 0.87898
+max Accuracy: 0.79885
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSiHUV with normalized features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+..*.*
+optimization finished, #iter = 3670
+nu = 0.362348
+obj = -795.035045, rho = 1.116409
+nSV = 1856, nBSV = 670
+Total nSV = 1856
+AUC: 0.79449
+max Accuracy: 0.7931
+ 
+--------------------------
+Classify with SVM probabilistic
+.*.*
+optimization finished, #iter = 2727
+nu = 0.386503
+obj = -679.764844, rho = -1.104314
+nSV = 1542, nBSV = 633
+Total nSV = 1542
+.*.*
+optimization finished, #iter = 2598
+nu = 0.377484
+obj = -664.706118, rho = 1.008111
+nSV = 1495, nBSV = 597
+Total nSV = 1495
+.*.*
+optimization finished, #iter = 2788
+nu = 0.382105
+obj = -671.339377, rho = 1.029040
+nSV = 1543, nBSV = 599
+Total nSV = 1543
+.*.*
+optimization finished, #iter = 2706
+nu = 0.381711
+obj = -668.511550, rho = 1.067816
+nSV = 1537, nBSV = 608
+Total nSV = 1537
+.*.*
+optimization finished, #iter = 2740
+nu = 0.385268
+obj = -679.920153, rho = 1.107484
+nSV = 1554, nBSV = 630
+Total nSV = 1554
+..*.*
+optimization finished, #iter = 3670
+nu = 0.362348
+obj = -795.035045, rho = 1.116409
+nSV = 1856, nBSV = 670
+Total nSV = 1856
+AUC: 0.88374
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=17
+
+AUC: 0.8836
+max Accuracy: 0.8046
+clear
+clc
+close all
+experiment02
