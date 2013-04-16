@@ -1,7 +1,8 @@
 % load data
 
+% normalization
 
-logfile = strcat('log',datestr(now),'.txt');
+logfile = strcat('log_exp01_',datestr(now),'.txt');
 
 diary(logfile)
 
@@ -10,6 +11,10 @@ diary(logfile)
 load('../../extTrainDataSet.mat');
 load('../../extEvalDataSet.mat');
 
+
+if ~exist('class','dir')
+	mkdir('class')
+end
 
 extendT = true;
 extendE = true;
@@ -21,15 +26,13 @@ show_data = true;
 for k1=1:5
 	switch k1
 		case 1
-			feats = 'msi';
+			feats = 'MSi';
 		case 2
-			feats = 'ilvH';
+			feats = 'MSiHLV';
 		case 3
-			feats = 'MilH';
+			feats = 'MSiHrV';
 		case 4
-			feats = 'MSlH';
-		case 5
-			feats = 'MSilH';
+			feats = 'MSiHuV';
 	end
 	
 	[ t_feat01, t_cl01, e_feat01, e_cl01, t_feat_n01, e_feat_n01 ] = extractFeatures(extTrainDataSet, extEvalDataSet, feats, extendT, extendE, normalize, save_data, strcat(feats,'_norm_extA.mat'));

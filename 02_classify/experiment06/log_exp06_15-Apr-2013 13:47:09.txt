@@ -1,0 +1,673 @@
+Feature <mean per color> selected
+number of features: 3
+Feature <std per color> selected
+number of features: 3
+Feature <25 central intensities> selected
+number of features: 25
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <18 riu2 local binary pattern> selected 3 different RADII 1-2-3
+number of features: 30
+Tot number of features: 109
+[Warning: Columns of X are linearly dependent to within machine precision.
+Using only the first 103 components to compute TSQUARED.] 
+[> In <a href="matlab: opentoline('/home/claudio/MATLAB/R2013a/toolbox/stats/stats/pca.m',488,1)">pca>localTSquared at 488</a>
+  In <a href="matlab: opentoline('/home/claudio/MATLAB/R2013a/toolbox/stats/stats/pca.m',334,1)">pca at 334</a>
+  In <a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment06/experiment06.m',36,1)">experiment06 at 36</a>] 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 1 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=1
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 2 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=1
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 3 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=1
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 4 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 5 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 6 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 7 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 8 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 9 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 10 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 11 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 12 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 13 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 14 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 15 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 16 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 17 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 18 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 19 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 20 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 21 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 22 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 23 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 24 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 25 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 26 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 27 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 28 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 29 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 30 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 31 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 32 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 33 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 34 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 35 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 36 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 37 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 38 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 39 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 40 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 41 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 42 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 43 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 44 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 45 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 46 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 47 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 48 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 49 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 50 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 51 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 52 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 53 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 54 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 55 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 56 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 57 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 58 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 59 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 60 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 61 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 62 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 63 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 64 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 65 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 66 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 67 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 68 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 69 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 70 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 71 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 72 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 73 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 74 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 75 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 76 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 77 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 78 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 79 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 80 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 81 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 82 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 83 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 84 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 85 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 86 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 87 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 88 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 89 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 90 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 91 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 92 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 93 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 94 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 95 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 96 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 97 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 98 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 99 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 100 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 101 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 102 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 103 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 104 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 105 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 106 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 107 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 108 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 109 of 109 - features: MSiHL
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+clear
+clc
+experiment06

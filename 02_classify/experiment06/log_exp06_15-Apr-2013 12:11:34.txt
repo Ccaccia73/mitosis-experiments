@@ -1,0 +1,1091 @@
+Tot number of features: 148
+[Warning: Columns of X are linearly dependent to within machine precision.
+Using only the first 142 components to compute TSQUARED.] 
+[> In <a href="matlab: opentoline('/home/claudio/MATLAB/R2013a/toolbox/stats/stats/pca.m',488,1)">pca>localTSquared at 488</a>
+  In <a href="matlab: opentoline('/home/claudio/MATLAB/R2013a/toolbox/stats/stats/pca.m',334,1)">pca at 334</a>
+  In <a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment06/experiment06.m',36,1)">experiment06 at 36</a>] 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 1 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=1
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 2 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=1
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 3 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=1
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 4 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 5 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 6 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 7 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 8 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=2
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 9 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 10 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 11 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 12 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 13 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 14 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 15 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=3
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 16 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 17 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 18 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 19 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 20 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 21 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 22 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 23 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 24 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=4
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 25 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 26 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 27 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 28 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 29 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 30 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 31 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 32 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 33 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 34 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 35 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=5
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 36 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 37 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 38 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 39 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 40 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 41 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 42 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 43 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 44 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 45 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 46 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 47 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 48 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=6
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 49 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 50 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 51 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 52 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 53 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 54 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 55 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 56 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 57 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 58 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 59 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 60 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 61 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 62 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 63 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=7
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 64 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 65 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 66 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 67 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 68 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 69 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 70 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 71 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 72 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 73 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 74 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 75 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 76 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 77 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 78 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 79 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 80 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=8
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 81 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 82 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 83 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 84 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 85 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 86 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 87 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 88 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 89 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 90 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 91 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 92 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 93 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 94 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 95 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 96 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 97 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 98 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 99 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=9
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 100 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 101 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 102 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 103 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 104 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 105 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 106 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 107 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 108 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 109 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 110 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 111 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 112 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 113 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 114 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 115 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 116 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 117 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 118 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 119 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 120 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=10
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 121 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 122 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 123 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 124 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 125 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 126 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 127 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 128 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 129 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 130 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 131 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 132 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 133 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 134 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 135 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 136 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 137 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 138 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 139 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 140 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 141 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 142 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 143 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=11
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 144 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=12
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 145 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=12
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 146 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=12
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 147 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=12
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+experiment 148 of 148 - features: MSidHLV
+param:-q -b 1-q
+	Setting to defaults 500 trees and mtry=12
+
+save('perf.mat','-regexp','^SVM|^RF|^SC','explained');
+plot(explained,RF_AUC)
+explained
+
+explained =
+
+   16.5916
+   13.7988
+    9.7307
+    5.6154
+    4.7525
+    3.4663
+    2.8317
+    2.0658
+    1.8000
+    1.6122
+    1.6101
+    1.4817
+    1.3098
+    1.3056
+    1.3002
+    1.1826
+    1.1493
+    1.0144
+    0.9923
+    0.9911
+    0.9483
+    0.9370
+    0.8657
+    0.8046
+    0.7024
+    0.6901
+    0.6875
+    0.6662
+    0.5998
+    0.5689
+    0.5657
+    0.5527
+    0.5151
+    0.5091
+    0.4859
+    0.4803
+    0.4467
+    0.4449
+    0.4264
+    0.4196
+    0.4104
+    0.4036
+    0.3972
+    0.3657
+    0.3629
+    0.3567
+    0.3451
+    0.3332
+    0.3301
+    0.3273
+    0.3152
+    0.3138
+    0.3061
+    0.2948
+    0.2894
+    0.2880
+    0.2781
+    0.2650
+    0.2581
+    0.2522
+    0.2476
+    0.2459
+    0.2371
+    0.2300
+    0.2241
+    0.2135
+    0.2132
+    0.2078
+    0.2009
+    0.1999
+    0.1969
+    0.1802
+    0.1723
+    0.1706
+    0.1674
+    0.1669
+    0.1576
+    0.1557
+    0.1511
+    0.1369
+    0.1363
+    0.1337
+    0.1284
+    0.1226
+    0.1180
+    0.1138
+    0.1132
+    0.1129
+    0.1090
+    0.1049
+    0.1025
+    0.0919
+    0.0862
+    0.0810
+    0.0800
+    0.0726
+    0.0684
+    0.0660
+    0.0641
+    0.0637
+    0.0599
+    0.0544
+    0.0523
+    0.0499
+    0.0475
+    0.0446
+    0.0376
+    0.0353
+    0.0338
+    0.0295
+    0.0281
+    0.0256
+    0.0225
+    0.0206
+    0.0191
+    0.0174
+    0.0171
+    0.0160
+    0.0148
+    0.0138
+    0.0119
+    0.0111
+    0.0098
+    0.0092
+    0.0081
+    0.0073
+    0.0069
+    0.0067
+    0.0053
+    0.0049
+    0.0047
+    0.0042
+    0.0037
+    0.0027
+    0.0026
+    0.0015
+    0.0013
+    0.0009
+    0.0002
+    0.0000
+    0.0000
+    0.0000
+    0.0000
+    0.0000
+    0.0000
+    0.0000
+    0.0000
+    0.0000
+
+sum(explained)
+
+ans =
+
+  100.0000
+
+help cumsum
+ <strong>cumsum</strong> Cumulative sum of elements.
+    For vectors, <strong>cumsum</strong>(X) is a vector containing the cumulative sum of
+    the elements of X. For matrices, <strong>cumsum</strong>(X) is a matrix the same size
+    as X containing the cumulative sums over each column.  For N-D
+    arrays, <strong>cumsum</strong>(X) operates along the first non-singleton dimension.
+ 
+    <strong>cumsum</strong>(X,DIM) works along the dimension DIM.
+ 
+    Example: If X = [0 1 2
+                     3 4 5]
+ 
+    then cumsum(X,1) is [0 1 2  and cumsum(X,2) is [0 1  3
+                         3 5 7]                     3 7 12]
+ 
+    See also <a href="matlab:help cumprod">cumprod</a>, <a href="matlab:help sum">sum</a>, <a href="matlab:help prod">prod</a>.
+
+    Overloaded methods:
+       <a href="matlab:help codistributed/cumsum">codistributed/cumsum</a>
+       <a href="matlab:help gpuArray/cumsum">gpuArray/cumsum</a>
+       <a href="matlab:help fints/cumsum">fints/cumsum</a>
+
+    Reference page in Help browser
+       <a href="matlab:doc cumsum">doc cumsum</a>
+
+plot(cumsum(explained),RF_AUC)
+plot(cumsum(explained),RF_acc)
+plot(cumsum(explained),SVM_acc)
+plot(cumsum(explained),SVM_AUC)
+close all
+plot(RF_AUC)
+plot(cumsum(explained),RF_AUC)
+clear
+clc
+close all
+experiment06

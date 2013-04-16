@@ -1,14 +1,19 @@
 % load data
 
-logfile = strcat('log',datestr(now),'.txt');
+logfile = strcat('log_exp02_',datestr(now),'.txt');
 
 
 load('../../extTrainDataSet.mat');
 load('../../extEvalDataSet.mat');
 
+
+if ~exist('class','dir')
+	mkdir('class')
+end
+
 % memo : extend train - extend eval - normalize - save
 
-feats = 'msi';
+feats = 'MSiHr';
 normalize = true;
 save_data = true;
 show_data = true;
@@ -96,7 +101,7 @@ classify_data( 'pr', params, t_feat_n04, t_cl04, e_feat_n04, e_cl04, extendE, sh
 %°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
 
 
-feats = 'MSilH';
+feats = 'MSiHu';
 normalize = true;
 save_data = true;
 show_data = true;

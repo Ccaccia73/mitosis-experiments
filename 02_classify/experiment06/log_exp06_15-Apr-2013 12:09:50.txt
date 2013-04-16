@@ -1,0 +1,6 @@
+{Undefined function or variable 't_feat_n01'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('experiment06', '/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment06/experiment06.m', 28)" style="font-weight:bold">experiment06</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment06/experiment06.m',28,0)">line 28</a>)
+disp(['Tot number of features: ',num2str(size(t_feat_n01,2))])
+} 
+experiment06

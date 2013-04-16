@@ -1,13 +1,17 @@
 % load data
 
-logfile = strcat('log',datestr(now),'.txt');
+logfile = strcat('log_exp04_',datestr(now),'.txt');
+
+if ~exist('class','dir')
+	mkdir('class')
+end
 
 diary(logfile)
 
 load('../../extTrainDataSet.mat');
 load('../../extEvalDataSet.mat');
 
-feats = 'ilvH';
+feats = 'iVHL';
 extendT = true;
 extendE = true;
 normalize = true;
@@ -21,6 +25,7 @@ mkdir(feats);
 
 
 params = struct;
+params.SMVprob = '-t 3';
 
 if extendT
 	numdata = length(extTrainDataSet) * 8;

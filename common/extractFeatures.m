@@ -117,6 +117,8 @@ for j1 = 1:length(selected_features)
 			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,25);
 			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,25);
 			
+			disp(['number of features: ',num2str(size(tmp_train_feat,2))]);
+			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train					
 					imc = extTrainDataSet(k1).data{k2}(26:75,26:75,:);	%central part of image
@@ -191,6 +193,8 @@ for j1 = 1:length(selected_features)
 			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,3);
 			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,3);
 			
+			disp(['number of features: ',num2str(size(tmp_train_feat,2))]);
+			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
 					for k3=1:3
@@ -217,6 +221,8 @@ for j1 = 1:length(selected_features)
 						
 			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,3);
 			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,3);
+			
+			disp(['number of features: ',num2str(size(tmp_train_feat,2))]);
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
@@ -246,6 +252,8 @@ for j1 = 1:length(selected_features)
 			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,3);
 			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,3);
 			
+			disp(['number of features: ',num2str(size(tmp_train_feat,2))]);
+			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
 					for k3=1:3
@@ -272,6 +280,8 @@ for j1 = 1:length(selected_features)
 			
 			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,3*nbins);
 			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,3*nbins);
+			
+			disp(['number of features: ',num2str(size(tmp_train_feat,2))]);
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
@@ -378,10 +388,12 @@ for j1 = 1:length(selected_features)
 			eval_features = [eval_features, tmp_eval_feat];
 			
 		case 'V'
-			disp('Feature <pixel Variance - histogram> selected')
+			disp('Feature <pixel Variance - 36 means> selected')
 			
 			tmp_train_feat = zeros(length(extTrainDataSet)*max_train,36);
 			tmp_eval_feat = zeros(length(extEvalDataSet)*max_eval,36);
+			
+			disp(['number of features: ',num2str(size(tmp_train_feat,2))]);
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train

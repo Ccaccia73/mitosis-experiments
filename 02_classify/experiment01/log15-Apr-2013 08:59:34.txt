@@ -1,0 +1,1181 @@
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSi with standard features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+.
+WARNING: using -h 0 may be faster
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1600
+nu = 0.833646
+obj = -2742.339447, rho = 6.762852
+nSV = 2887, nBSV = 2871
+Total nSV = 2887
+AUC: 0.73609
+max Accuracy: 0.73563
+ 
+--------------------------
+Classify with SVM probabilistic
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1275
+nu = 0.843159
+obj = -2215.271152, rho = -5.492265
+nSV = 2340, nBSV = 2325
+Total nSV = 2340
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1260
+nu = 0.836050
+obj = -2191.706661, rho = 5.610302
+nSV = 2317, nBSV = 2308
+Total nSV = 2317
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1290
+nu = 0.842188
+obj = -2206.254547, rho = 5.715066
+nSV = 2335, nBSV = 2316
+Total nSV = 2335
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1305
+nu = 0.850299
+obj = -2234.721001, rho = 5.389791
+nSV = 2359, nBSV = 2345
+Total nSV = 2359
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1304
+nu = 0.850481
+obj = -2237.276958, rho = 5.200124
+nSV = 2360, nBSV = 2345
+Total nSV = 2360
+.
+WARNING: using -h 0 may be faster
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1600
+nu = 0.833646
+obj = -2742.339447, rho = 6.762852
+nSV = 2887, nBSV = 2871
+Total nSV = 2887
+AUC: 0.79139
+max Accuracy: 0.74138
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.79806
+max Accuracy: 0.75862
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSi with normalized features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+..*.*
+optimization finished, #iter = 3833
+nu = 0.486810
+obj = -1310.285596, rho = 1.196227
+nSV = 2073, nBSV = 1366
+Total nSV = 2073
+AUC: 0.69534
+max Accuracy: 0.6954
+ 
+--------------------------
+Classify with SVM probabilistic
+.*.*
+optimization finished, #iter = 2754
+nu = 0.502219
+obj = -1078.734321, rho = -1.192971
+nSV = 1677, nBSV = 1153
+Total nSV = 1677
+..*
+optimization finished, #iter = 2828
+nu = 0.502100
+obj = -1082.086151, rho = 1.184935
+nSV = 1695, nBSV = 1147
+Total nSV = 1695
+..*
+optimization finished, #iter = 2751
+nu = 0.503714
+obj = -1085.238710, rho = 1.200537
+nSV = 1681, nBSV = 1164
+Total nSV = 1681
+.*.*
+optimization finished, #iter = 2822
+nu = 0.498848
+obj = -1068.727004, rho = 1.188311
+nSV = 1677, nBSV = 1140
+Total nSV = 1677
+.*.*
+optimization finished, #iter = 2785
+nu = 0.511778
+obj = -1098.138910, rho = 1.099167
+nSV = 1720, nBSV = 1166
+Total nSV = 1720
+..*.*
+optimization finished, #iter = 3833
+nu = 0.486810
+obj = -1310.285596, rho = 1.196227
+nSV = 2073, nBSV = 1366
+Total nSV = 2073
+AUC: 0.74409
+max Accuracy: 0.71264
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=5
+
+AUC: 0.79753
+max Accuracy: 0.75862
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <18 riu2 local binary pattern> selected 3 different RADII 1-2-3
+number of features: 30
+Feature <pixel Variance - histogram> selected
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSiHLV with standard features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+*...*.*
+optimization finished, #iter = 3379
+nu = 0.125461
+obj = -216.790845, rho = 0.001026
+nSV = 2616, nBSV = 0
+Total nSV = 2616
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with SVM probabilistic
+*...*
+optimization finished, #iter = 3360
+nu = 0.156805
+obj = -216.774567, rho = -0.000986
+nSV = 2333, nBSV = 0
+Total nSV = 2333
+*...*.*
+optimization finished, #iter = 3132
+nu = 0.156804
+obj = -216.774353, rho = 0.000996
+nSV = 2337, nBSV = 0
+Total nSV = 2337
+*...*
+optimization finished, #iter = 3114
+nu = 0.156803
+obj = -216.773508, rho = 0.000991
+nSV = 2329, nBSV = 0
+Total nSV = 2329
+*...*
+optimization finished, #iter = 3156
+nu = 0.156801
+obj = -216.774438, rho = 0.001001
+nSV = 2340, nBSV = 0
+Total nSV = 2340
+*...*.*
+optimization finished, #iter = 3058
+nu = 0.156857
+obj = -216.772267, rho = 0.001004
+nSV = 2320, nBSV = 0
+Total nSV = 2320
+*...*.*
+optimization finished, #iter = 3379
+nu = 0.125461
+obj = -216.790845, rho = 0.001026
+nSV = 2616, nBSV = 0
+Total nSV = 2616
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=12
+
+AUC: 0.89979
+max Accuracy: 0.81609
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSiHLV with normalized features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.5796
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+..*.*
+optimization finished, #iter = 3121
+nu = 0.294298
+obj = -493.730709, rho = -1.055191
+nSV = 1277, nBSV = 448
+Total nSV = 1277
+.*.*
+optimization finished, #iter = 2848
+nu = 0.287829
+obj = -487.708974, rho = 0.957240
+nSV = 1249, nBSV = 455
+Total nSV = 1249
+.*..*
+optimization finished, #iter = 3042
+nu = 0.291797
+obj = -492.424643, rho = 1.052689
+nSV = 1274, nBSV = 455
+Total nSV = 1274
+.*..*
+optimization finished, #iter = 3130
+nu = 0.289016
+obj = -487.765391, rho = 0.950081
+nSV = 1311, nBSV = 436
+Total nSV = 1311
+..*.*
+optimization finished, #iter = 3088
+nu = 0.294453
+obj = -491.205709, rho = 1.055161
+nSV = 1298, nBSV = 462
+Total nSV = 1298
+..*..*
+optimization finished, #iter = 4418
+nu = 0.269507
+obj = -552.253816, rho = 1.088657
+nSV = 1578, nBSV = 467
+Total nSV = 1578
+AUC: 0.53125
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=12
+
+AUC: 0.90659
+max Accuracy: 0.82759
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <ri local binary pattern> selected
+number of features: 36
+Feature <pixel Variance - histogram> selected
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSiHrV with standard features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+*...*.*
+optimization finished, #iter = 3372
+nu = 0.125442
+obj = -216.759502, rho = 0.000986
+nSV = 2615, nBSV = 0
+Total nSV = 2615
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with SVM probabilistic
+*...*
+optimization finished, #iter = 3359
+nu = 0.156785
+obj = -216.743293, rho = -0.000946
+nSV = 2336, nBSV = 0
+Total nSV = 2336
+*...*.*
+optimization finished, #iter = 3122
+nu = 0.156782
+obj = -216.743524, rho = 0.000957
+nSV = 2346, nBSV = 0
+Total nSV = 2346
+*...*
+optimization finished, #iter = 3103
+nu = 0.156779
+obj = -216.742626, rho = 0.000955
+nSV = 2332, nBSV = 0
+Total nSV = 2332
+*...*.*
+optimization finished, #iter = 3191
+nu = 0.156780
+obj = -216.743660, rho = 0.000960
+nSV = 2344, nBSV = 0
+Total nSV = 2344
+*...*
+optimization finished, #iter = 3035
+nu = 0.156834
+obj = -216.741501, rho = 0.000963
+nSV = 2308, nBSV = 0
+Total nSV = 2308
+*...*.*
+optimization finished, #iter = 3372
+nu = 0.125442
+obj = -216.759502, rho = 0.000986
+nSV = 2615, nBSV = 0
+Total nSV = 2615
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=12
+
+AUC: 0.89094
+max Accuracy: 0.82759
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSiHrV with normalized features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+*...*.*
+optimization finished, #iter = 3374
+nu = 0.125442
+obj = -216.759501, rho = 0.000987
+nSV = 2615, nBSV = 0
+Total nSV = 2615
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with SVM probabilistic
+*...*
+optimization finished, #iter = 3351
+nu = 0.156785
+obj = -216.743295, rho = -0.000946
+nSV = 2336, nBSV = 0
+Total nSV = 2336
+*...*.*
+optimization finished, #iter = 3127
+nu = 0.156782
+obj = -216.743524, rho = 0.000957
+nSV = 2344, nBSV = 0
+Total nSV = 2344
+*...*
+optimization finished, #iter = 3098
+nu = 0.156780
+obj = -216.742624, rho = 0.000955
+nSV = 2332, nBSV = 0
+Total nSV = 2332
+*...*.*
+optimization finished, #iter = 3196
+nu = 0.156780
+obj = -216.743666, rho = 0.000960
+nSV = 2344, nBSV = 0
+Total nSV = 2344
+*...*
+optimization finished, #iter = 3036
+nu = 0.156834
+obj = -216.741516, rho = 0.000963
+nSV = 2309, nBSV = 0
+Total nSV = 2309
+*...*.*
+optimization finished, #iter = 3374
+nu = 0.125442
+obj = -216.759501, rho = 0.000987
+nSV = 2615, nBSV = 0
+Total nSV = 2615
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=12
+
+AUC: 0.89728
+max Accuracy: 0.82184
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <u2 local binary pattern> selected
+number of features: 59
+Feature <pixel Variance - histogram> selected
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSiHuV with standard features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+*...*
+optimization finished, #iter = 3404
+nu = 0.125389
+obj = -216.663739, rho = 0.000862
+nSV = 2640, nBSV = 0
+Total nSV = 2640
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with SVM probabilistic
+*...*
+optimization finished, #iter = 3098
+nu = 0.156717
+obj = -216.647183, rho = -0.000834
+nSV = 2261, nBSV = 0
+Total nSV = 2261
+*...*.*
+optimization finished, #iter = 3115
+nu = 0.156713
+obj = -216.649564, rho = 0.000840
+nSV = 2355, nBSV = 0
+Total nSV = 2355
+*...*
+optimization finished, #iter = 3100
+nu = 0.156714
+obj = -216.648906, rho = 0.000834
+nSV = 2339, nBSV = 0
+Total nSV = 2339
+*...*.*
+optimization finished, #iter = 3109
+nu = 0.156712
+obj = -216.649929, rho = 0.000840
+nSV = 2345, nBSV = 0
+Total nSV = 2345
+*...*
+optimization finished, #iter = 3067
+nu = 0.156767
+obj = -216.647874, rho = 0.000843
+nSV = 2324, nBSV = 0
+Total nSV = 2324
+*...*
+optimization finished, #iter = 3404
+nu = 0.125389
+obj = -216.663739, rho = 0.000862
+nSV = 2640, nBSV = 0
+Total nSV = 2640
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=13
+
+AUC: 0.88235
+max Accuracy: 0.81034
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+Classifying MSiHuV with normalized features extended all datasets
+ 
+--------------------------
+Classify with SVM standard
+..*.*
+optimization finished, #iter = 3840
+nu = 0.359630
+obj = -811.090713, rho = 1.277225
+nSV = 1830, nBSV = 754
+Total nSV = 1830
+AUC: 0.5802
+max Accuracy: 0.58046
+ 
+--------------------------
+Classify with SVM probabilistic
+..*
+optimization finished, #iter = 2885
+nu = 0.382896
+obj = -691.382667, rho = -1.231124
+nSV = 1520, nBSV = 654
+Total nSV = 1520
+.*.*
+optimization finished, #iter = 2747
+nu = 0.371644
+obj = -675.017245, rho = 1.133216
+nSV = 1499, nBSV = 629
+Total nSV = 1499
+.*.*
+optimization finished, #iter = 2831
+nu = 0.377130
+obj = -684.901820, rho = 1.204556
+nSV = 1503, nBSV = 653
+Total nSV = 1503
+.*.*
+optimization finished, #iter = 2773
+nu = 0.379423
+obj = -687.907887, rho = 1.190168
+nSV = 1510, nBSV = 672
+Total nSV = 1510
+.*.*
+optimization finished, #iter = 2847
+nu = 0.382782
+obj = -694.376027, rho = 1.239854
+nSV = 1535, nBSV = 661
+Total nSV = 1535
+..*.*
+optimization finished, #iter = 3840
+nu = 0.359630
+obj = -811.090713, rho = 1.277225
+nSV = 1830, nBSV = 754
+Total nSV = 1830
+AUC: 0.55001
+max Accuracy: 0.58621
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=13
+
+AUC: 0.87521
+max Accuracy: 0.8046
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <u2 local binary pattern> selected
+number of features: 59
+Feature <pixel Variance - histogram> selected
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('rgb2gray', '/home/claudio/MATLAB/R2013a/toolbox/images/images/rgb2gray.m', 55)" style="font-weight:bold">rgb2gray</a> (<a href="matlab: opentoline('/home/claudio/MATLAB/R2013a/toolbox/images/images/rgb2gray.m',55,0)">line 55</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('extractFeatures', '/home/claudio/Development/Mitosi/01_Thesis/common/extractFeatures.m', 388)" style="font-weight:bold">extractFeatures</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/common/extractFeatures.m',388,0)">line 388</a>)
+					tmp_feat01 = cont(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors);
+
+In <a href="matlab:helpUtils.errorDocCallback('experiment01', '/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment01/experiment01.m', 38)" style="font-weight:bold">experiment01</a> (<a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment01/experiment01.m',38,0)">line 38</a>)
+	[ t_feat01, t_cl01, e_feat01, e_cl01, t_feat_n01, e_feat_n01 ] = extractFeatures(extTrainDataSet, extEvalDataSet, feats, extendT,
+    extendE, normalize, save_data, strcat(feats,'_norm_extA.mat'));
+} 
+clear
+clc
+close all
+experiment02
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <ri local binary pattern> selected
+number of features: 36
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features default datasets
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+.*
+optimization finished, #iter = 588
+nu = 0.971098
+obj = -172.719080, rho = 0.056180
+nSV = 346, nBSV = 168
+Total nSV = 346
+.*
+optimization finished, #iter = 587
+nu = 0.965318
+obj = -172.597746, rho = 0.067039
+nSV = 346, nBSV = 167
+Total nSV = 346
+.*
+optimization finished, #iter = 550
+nu = 0.985507
+obj = -172.428555, rho = -0.028571
+nSV = 345, nBSV = 170
+Total nSV = 345
+.*
+optimization finished, #iter = 478
+nu = 0.942197
+obj = -171.907097, rho = -0.109290
+nSV = 346, nBSV = 163
+Total nSV = 346
+.*
+optimization finished, #iter = 498
+nu = 0.991304
+obj = -172.474119, rho = 0.017241
+nSV = 345, nBSV = 171
+Total nSV = 345
+*
+optimization finished, #iter = 216
+nu = 1.000000
+obj = -216.000000, rho = 0.000000
+nSV = 432, nBSV = 432
+Total nSV = 432
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=10
+
+AUC: 0.89279
+max Accuracy: 0.81609
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <ri local binary pattern> selected
+number of features: 36
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended train set
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+*...*
+optimization finished, #iter = 3449
+nu = 0.156953
+obj = -216.978002, rho = -0.001241
+nSV = 2376, nBSV = 0
+Total nSV = 2376
+*...*
+optimization finished, #iter = 3340
+nu = 0.156947
+obj = -216.978260, rho = 0.001254
+nSV = 2360, nBSV = 0
+Total nSV = 2360
+*...*
+optimization finished, #iter = 3386
+nu = 0.156946
+obj = -216.977214, rho = 0.001249
+nSV = 2356, nBSV = 0
+Total nSV = 2356
+*...*
+optimization finished, #iter = 3263
+nu = 0.156947
+obj = -216.977900, rho = 0.001261
+nSV = 2350, nBSV = 0
+Total nSV = 2350
+.*..*
+optimization finished, #iter = 3226
+nu = 0.157002
+obj = -216.974948, rho = 0.001264
+nSV = 2324, nBSV = 0
+Total nSV = 2324
+*...*
+optimization finished, #iter = 3666
+nu = 0.125580
+obj = -216.999560, rho = 0.001288
+nSV = 2657, nBSV = 0
+Total nSV = 2657
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=10
+
+AUC: 0.88109
+max Accuracy: 0.8046
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <ri local binary pattern> selected
+number of features: 36
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended test set
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+.*
+optimization finished, #iter = 588
+nu = 0.971098
+obj = -172.719080, rho = 0.056180
+nSV = 346, nBSV = 168
+Total nSV = 346
+.*
+optimization finished, #iter = 587
+nu = 0.965318
+obj = -172.597746, rho = 0.067039
+nSV = 346, nBSV = 167
+Total nSV = 346
+.*
+optimization finished, #iter = 550
+nu = 0.985507
+obj = -172.428555, rho = -0.028571
+nSV = 345, nBSV = 170
+Total nSV = 345
+.*
+optimization finished, #iter = 478
+nu = 0.942197
+obj = -171.907097, rho = -0.109290
+nSV = 346, nBSV = 163
+Total nSV = 346
+.*
+optimization finished, #iter = 498
+nu = 0.991304
+obj = -172.474119, rho = 0.017241
+nSV = 345, nBSV = 171
+Total nSV = 345
+*
+optimization finished, #iter = 216
+nu = 1.000000
+obj = -216.000000, rho = 0.000000
+nSV = 432, nBSV = 432
+Total nSV = 432
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=10
+
+AUC: 0.88678
+max Accuracy: 0.8046
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <ri local binary pattern> selected
+number of features: 36
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended All sets
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+*...*
+optimization finished, #iter = 3449
+nu = 0.156953
+obj = -216.978002, rho = -0.001241
+nSV = 2376, nBSV = 0
+Total nSV = 2376
+*...*
+optimization finished, #iter = 3340
+nu = 0.156947
+obj = -216.978260, rho = 0.001254
+nSV = 2360, nBSV = 0
+Total nSV = 2360
+*...*
+optimization finished, #iter = 3386
+nu = 0.156946
+obj = -216.977214, rho = 0.001249
+nSV = 2356, nBSV = 0
+Total nSV = 2356
+*...*
+optimization finished, #iter = 3263
+nu = 0.156947
+obj = -216.977900, rho = 0.001261
+nSV = 2350, nBSV = 0
+Total nSV = 2350
+.*..*
+optimization finished, #iter = 3226
+nu = 0.157002
+obj = -216.974948, rho = 0.001264
+nSV = 2324, nBSV = 0
+Total nSV = 2324
+*...*
+optimization finished, #iter = 3666
+nu = 0.125580
+obj = -216.999560, rho = 0.001288
+nSV = 2657, nBSV = 0
+Total nSV = 2657
+AUC: 0.5
+max Accuracy: 0.5
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=10
+
+AUC: 0.88433
+max Accuracy: 0.8046
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <u2 local binary pattern> selected
+number of features: 59
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features default datasets
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+*.*
+optimization finished, #iter = 407
+nu = 0.563188
+obj = -122.639231, rho = -0.787027
+nSV = 273, nBSV = 126
+Total nSV = 273
+*.*
+optimization finished, #iter = 384
+nu = 0.580688
+obj = -127.923886, rho = -0.816035
+nSV = 267, nBSV = 129
+Total nSV = 267
+*.*
+optimization finished, #iter = 412
+nu = 0.588946
+obj = -127.569473, rho = -0.817136
+nSV = 276, nBSV = 126
+Total nSV = 276
+*.*
+optimization finished, #iter = 349
+nu = 0.551892
+obj = -118.954763, rho = -0.921318
+nSV = 261, nBSV = 127
+Total nSV = 261
+*.*
+optimization finished, #iter = 371
+nu = 0.575012
+obj = -124.274957, rho = -0.767567
+nSV = 266, nBSV = 127
+Total nSV = 266
+*.*
+optimization finished, #iter = 440
+nu = 0.543730
+obj = -148.474206, rho = 0.862727
+nSV = 322, nBSV = 152
+Total nSV = 322
+AUC: 0.86544
+max Accuracy: 0.8046
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=11
+
+AUC: 0.86293
+max Accuracy: 0.7931
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <u2 local binary pattern> selected
+number of features: 59
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended train set
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+..*
+optimization finished, #iter = 2907
+nu = 0.387534
+obj = -711.364015, rho = -1.336083
+nSV = 1482, nBSV = 716
+Total nSV = 1482
+..*
+optimization finished, #iter = 2929
+nu = 0.378974
+obj = -696.602172, rho = 1.242145
+nSV = 1466, nBSV = 676
+Total nSV = 1466
+..*.*
+optimization finished, #iter = 3030
+nu = 0.386891
+obj = -713.551850, rho = 1.348210
+nSV = 1478, nBSV = 690
+Total nSV = 1478
+.*.*
+optimization finished, #iter = 2841
+nu = 0.381878
+obj = -703.657894, rho = 1.342700
+nSV = 1467, nBSV = 694
+Total nSV = 1467
+..*.*
+optimization finished, #iter = 3010
+nu = 0.392924
+obj = -723.165057, rho = 1.325177
+nSV = 1503, nBSV = 719
+Total nSV = 1503
+..*..*
+optimization finished, #iter = 4071
+nu = 0.365907
+obj = -835.156991, rho = 1.408523
+nSV = 1811, nBSV = 784
+Total nSV = 1811
+AUC: 0.86398
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=11
+
+AUC: 0.85566
+max Accuracy: 0.78736
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <u2 local binary pattern> selected
+number of features: 59
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended test set
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+*.*
+optimization finished, #iter = 407
+nu = 0.563188
+obj = -122.639231, rho = -0.787027
+nSV = 273, nBSV = 126
+Total nSV = 273
+*.*
+optimization finished, #iter = 384
+nu = 0.580688
+obj = -127.923886, rho = -0.816035
+nSV = 267, nBSV = 129
+Total nSV = 267
+*.*
+optimization finished, #iter = 412
+nu = 0.588946
+obj = -127.569473, rho = -0.817136
+nSV = 276, nBSV = 126
+Total nSV = 276
+*.*
+optimization finished, #iter = 349
+nu = 0.551892
+obj = -118.954763, rho = -0.921318
+nSV = 261, nBSV = 127
+Total nSV = 261
+*.*
+optimization finished, #iter = 371
+nu = 0.575012
+obj = -124.274957, rho = -0.767567
+nSV = 266, nBSV = 127
+Total nSV = 266
+*.*
+optimization finished, #iter = 440
+nu = 0.543730
+obj = -148.474206, rho = 0.862727
+nSV = 322, nBSV = 152
+Total nSV = 322
+AUC: 0.86689
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=11
+
+AUC: 0.86768
+max Accuracy: 0.78736
+Feature <mean per color> selected
+Feature <std per color> selected
+Feature <25 central intensities> selected
+Feature <histograms of color distributions> selected
+Feature <u2 local binary pattern> selected
+number of features: 59
+ 
+ 
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ 
+Classifying mean+std+intensities with normalized features extended All sets
+ 
+ 
+--------------------------
+Classify with SVM probabilistic
+..*
+optimization finished, #iter = 2907
+nu = 0.387534
+obj = -711.364015, rho = -1.336083
+nSV = 1482, nBSV = 716
+Total nSV = 1482
+..*
+optimization finished, #iter = 2929
+nu = 0.378974
+obj = -696.602172, rho = 1.242145
+nSV = 1466, nBSV = 676
+Total nSV = 1466
+..*.*
+optimization finished, #iter = 3030
+nu = 0.386891
+obj = -713.551850, rho = 1.348210
+nSV = 1478, nBSV = 690
+Total nSV = 1478
+.*.*
+optimization finished, #iter = 2841
+nu = 0.381878
+obj = -703.657894, rho = 1.342700
+nSV = 1467, nBSV = 694
+Total nSV = 1467
+..*.*
+optimization finished, #iter = 3010
+nu = 0.392924
+obj = -723.165057, rho = 1.325177
+nSV = 1503, nBSV = 719
+Total nSV = 1503
+..*..*
+optimization finished, #iter = 4071
+nu = 0.365907
+obj = -835.156991, rho = 1.408523
+nSV = 1811, nBSV = 784
+Total nSV = 1811
+AUC: 0.86418
+max Accuracy: 0.79885
+ 
+--------------------------
+Classify with Random Forest
+	Setting to defaults 500 trees and mtry=11
+
+AUC: 0.85619
+max Accuracy: 0.78736
+help pca
+ <strong>pca</strong> Principal Component Analysis (<strong>pca</strong>) on raw data.
+    COEFF = <strong>pca</strong>(X) returns the principal component coefficients for the N
+    by P data matrix X. Rows of X correspond to observations and columns to
+    variables. Each column of COEFF contains coefficients for one principal
+    component. The columns are in descending order in terms of component
+    variance (LATENT). <strong>pca</strong>, by default, centers the data and uses the
+    singular value decomposition algorithm. For the non-default options,
+    use the name/value pair arguments.
+    
+    [COEFF, SCORE] = <strong>pca</strong>(X) returns the principal component score, which is
+    the representation of X in the principal component space. Rows of SCORE
+    correspond to observations, columns to components. The centered data
+    can be reconstructed by SCORE*COEFF'.
+ 
+    [COEFF, SCORE, LATENT] = <strong>pca</strong>(X) returns the principal component
+    variances, i.e., the eigenvalues of the covariance matrix of X, in
+    LATENT.
+ 
+    [COEFF, SCORE, LATENT, TSQUARED] = <strong>pca</strong>(X) returns Hotelling's T-squared
+    statistic for each observation in X. <strong>pca</strong> uses all principal components
+    to compute the TSQUARED (computes in the full space) even when fewer
+    components are requested (see the 'NumComponents' option below). For
+    TSQUARED in the reduced space, use MAHAL(SCORE,SCORE).
+ 
+    [COEFF, SCORE, LATENT, TSQUARED, EXPLAINED] = <strong>pca</strong>(X) returns a vector
+    containing the percentage of the total variance explained by each
+    principal component.
+ 
+    [COEFF, SCORE, LATENT, TSQUARED, EXPLAINED, MU] = <strong>pca</strong>(X) returns the
+    estimated mean.
+ 
+    [...] = <strong>pca</strong>(..., 'PARAM1',val1, 'PARAM2',val2, ...) specifies optional
+    parameter name/value pairs to control the computation and handling of
+    special data types. Parameters are:
+    
+     'Algorithm' - Algorithm that <strong>pca</strong> uses to perform the principal
+                   component analysis. Choices are:
+         'svd'   - Singular Value Decomposition of X (the default).
+         'eig'   - Eigenvalue Decomposition of the covariance matrix. It
+                   is faster than SVD when N is greater than P, but less
+                   accurate because the condition number of the covariance
+                   is the square of the condition number of X.
+         'als'   - Alternating Least Squares (ALS) algorithm which finds
+                   the best rank-K approximation by factoring a X into a
+                   N-by-K left factor matrix and a P-by-K right factor
+                   matrix, where K is the number of principal components.
+                   The factorization uses an iterative method starting with
+                   random initial values. ALS algorithm is designed to
+                   better handle missing values. It deals with missing
+                   values without listwise deletion (see {'Rows',
+                   'complete'}).
+ 
+      'Centered' - Indicator for centering the columns of X. Choices are: 
+          true   - The default. <strong>pca</strong> centers X by subtracting off column
+                   means before computing SVD or EIG. If X contains NaN
+                   missing values, NANMEAN is used to find the mean with
+                   any data available.
+          false  - <strong>pca</strong> does not center the data. In this case, the original
+                   data X can be reconstructed by X = SCORE*COEFF'. 
+ 
+      'Economy'  - Indicator for economy size output, when D the degrees of
+                   freedom is smaller than P. D, is equal to M-1, if data
+                   is centered and M otherwise. M is the number of rows
+                   without any NaNs if you use 'Rows', 'complete'; or the
+                   number of rows without any NaNs in the column pair that
+                   has the maximum number of rows without NaNs if you use
+                   'Rows', 'pairwise'. When D < P, SCORE(:,D+1:P) and
+                   LATENT(D+1:P) are necessarily zero, and the columns of
+                   COEFF(:,D+1:P) define directions that are orthogonal to
+                   X. Choices are:
+          true   - This is the default. <strong>pca</strong> returns only the first D
+                   elements of LATENT and the corresponding columns of
+                   COEFF and SCORE. This can be significantly faster when P
+                   is much larger than D. NOTE: <strong>pca</strong> always returns economy
+                   size outputs if 'als' algorithm is specifed.
+          false  - <strong>pca</strong> returns all elements of LATENT. Columns of COEFF and
+                   SCORE corresponding to zero elements in LATENT are
+                   zeros.
+ 
+      'NumComponents' - The number of components desired, specified as a
+                   scalar integer K satisfying 0 < K <= P. When specified,
+                   <strong>pca</strong> returns the first K columns of COEFF and SCORE.
+ 
+      'Rows'     - Action to take when the data matrix X contains NaN
+                   values. If 'Algorithm' option is set to 'als, this
+                   option is ignored as ALS algorithm deals with missing
+                   values without removing them. Choices are:
+          'complete' - The default action. Observations with NaN values
+                       are removed before calculation. Rows of NaNs are
+                       inserted back into SCORE at the corresponding
+                       location.
+          'pairwise' - If specified, <strong>pca</strong> switches 'Algorithm' to 'eig'. 
+                       This option only applies when 'eig' method is used.
+                       The (I,J) element of the covariance matrix is
+                       computed using rows with no NaN values in columns I
+                       or J of X. Please note that the resulting covariance
+                       matrix may not be positive definite. In that case,
+                       <strong>pca</strong> terminates with an error message.
+          'all'      - X is expected to have no missing values. All data
+                       are used, and execution will be terminated if NaN is
+                       found.
+                      
+      'Weights'  - Observation weights, a vector of length N containing all
+                   positive elements.
+ 
+      'VariableWeights' - Variable weights. Choices are:
+           - a vector of length P containing all positive elements.
+           - the string 'variance'. The variable weights are the inverse of
+             sample variance. If 'Centered' is set true at the same time,
+             the data matrix X is centered and standardized. In this case,
+             <strong>pca</strong> returns the principal components based on the correlation
+             matrix.
+ 
+    The following parameter name/value pairs specify additional options
+    when alternating least squares ('als') algorithm is used.
+ 
+       'Coeff0'  - Initial value for COEFF, a P-by-K matrix. The default is
+                   a random matrix.
+ 
+       'Score0'  - Initial value for SCORE, a N-by-K matrix. The default is
+                   a matrix of random values.
+ 
+       'Options' - An options structure as created by the STATSET function.
+                   <strong>pca</strong> uses the following fields:
+           'Display' - Level of display output.  Choices are 'off' (the
+                       default), 'final', and 'iter'.
+           'MaxIter' - Maximum number of steps allowed. The default is
+                       100. Unlike in optimization settings, reaching
+                       MaxIter is regarded as convergence.
+            'TolFun' - Positive number giving the termination tolerance for
+                       the cost function.  The default is 1e-6.
+              'TolX' - Positive number giving the convergence threshold
+                       for relative change in the elements of L and R. The
+                       default is 1e-6.
+ 
+ 
+    Example:
+        load hald;
+        [coeff, score, latent, tsquared, explained] = pca(ingredients);
+ 
+    See also <a href="matlab:help ppca">ppca</a>, <a href="matlab:help pcacov">pcacov</a>, <a href="matlab:help pcares">pcares</a>, <a href="matlab:help biplot">biplot</a>, <a href="matlab:help barttest">barttest</a>, <a href="matlab:help canoncorr">canoncorr</a>, <a href="matlab:help factoran">factoran</a>,
+    <a href="matlab:help rotatefactors">rotatefactors</a>.
+
+    Reference page in Help browser
+       <a href="matlab:doc pca">doc pca</a>
+
+clear
+clc
+experiment06

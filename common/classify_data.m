@@ -86,7 +86,7 @@ for j1=1:length(classifiers)
 			end
 			
 			if isfield(parameters,'SMVprob')
-				params = strcat('-b 1 ',parameters.SMVprob);
+				params = strcat('-q -b 1 ',parameters.SMVprob);
 				disp(['param:',params])
 			else
 				params = '-b 1';
