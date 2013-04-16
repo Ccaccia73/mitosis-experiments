@@ -1,4 +1,4 @@
-function [ train_features, train_classes, eval_features, eval_classes, train_features_norm, eval_features_norm ] = extractFeatures(extTrainDataSet, extEvalDataSet, selected_features, ext_train, ext_eval, normalize, save_data, filename )
+function [ train_features, train_classes, eval_features, eval_classes, train_features_norm, eval_features_norm ] = L_extractFeatures(extTrainDataSet, extEvalDataSet, selected_features, ext_train, ext_eval, normalize, save_data, filename, L )
 %extractFeatures extract selected features from dataset
 %
 %   Parameters:
@@ -29,6 +29,8 @@ function [ train_features, train_classes, eval_features, eval_classes, train_fea
 %
 %	save_data: if to save features and classes with name = filename
 %				if name not provided filename = 'features.mat'
+%	
+%	L        : length of the the side of the square in which to compute features
 %
 %	Returns:
 %	features and classes for selected training and evaluation set
@@ -51,6 +53,10 @@ else
 end
 
 neighbors = 8;
+
+
+L1 = floor(L/2);
+
 
 train_features = [];
 train_classes = zeros(length(extTrainDataSet)*max_train,1);
@@ -81,13 +87,15 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_train_feat(max_train*(k1-1) + k2) = mean(extTrainDataSet(k1).data{k2}(:));
+					tmp_img = extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:);
+					tmp_train_feat(max_train*(k1-1) + k2) = mean(tmp_img(:));
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_eval_feat(max_eval*(k1-1) + k2) = mean(extEvalDataSet(k1).data{k2}(:));
+					tmp_img = extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:);
+					tmp_eval_feat(max_eval*(k1-1) + k2) = mean(tmp_img(:));
 				end
 			end
 			
@@ -102,13 +110,15 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_train_feat(max_train*(k1-1) + k2) = std(extTrainDataSet(k1).data{k2}(:));
+					tmp_img = extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:);
+					tmp_train_feat(max_train*(k1-1) + k2) = std(tmp_img(:));
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_eval_feat(max_eval*(k1-1) + k2) = std(extEvalDataSet(k1).data{k2}(:));
+					tmp_img = extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:);
+					tmp_eval_feat(max_eval*(k1-1) + k2) = std(tmp_img(:));
 				end
 			end
 			
@@ -125,7 +135,7 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train					
-					imc = extTrainDataSet(k1).data{k2}(26:75,26:75,:);	%central part of image
+					imc = extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:);	%central part of image
 					imcg = rgb2gray(imc);								% grayscale
 					imcgs = imresize(imcg,[5 5]);						% resized 5x5
 					tmp_train_feat(max_train*(k1-1) + k2,:) = imcgs(:)';
@@ -134,7 +144,7 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					imc = extEvalDataSet(k1).data{k2}(26:75,26:75,:);	%central part of image
+					imc = extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:);	%central part of image
 					imcg = rgb2gray(imc);								% grayscale
 					imcgs = imresize(imcg,[5 5]);						% resized 5x5
 					tmp_eval_feat(max_eval*(k1-1) + k2,:) = imcgs(:)';
@@ -156,13 +166,13 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
@@ -177,14 +187,14 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					c1 = cont(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),4,16);
+					c1 = cont(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),4,16);
 					tmp_train_feat(max_train*(k1-1) + k2) = mean(c1(:));
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					c1 = cont(cont(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),4,16));
+					c1 = cont(cont(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),4,16));
 					tmp_eval_feat(max_eval*(k1-1) + k2) = mean(c1(:));
 				end
 			end
@@ -202,7 +212,7 @@ for j1 = 1:length(selected_features)
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
 					for k3=1:3
-						tmp_im = extTrainDataSet(k1).data{k2}(:,:,k3);
+						tmp_im = extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,k3);
 						tmp_train_feat(max_train*(k1-1) + k2,k3) = mean(tmp_im(:));
 					end
 				end
@@ -211,7 +221,7 @@ for j1 = 1:length(selected_features)
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
 					for k3=1:3
-						tmp_im = extEvalDataSet(k1).data{k2}(:,:,k3);
+						tmp_im = extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,k3);
 						tmp_eval_feat(max_eval*(k1-1) + k2,k3) = mean(tmp_im(:));
 					end
 				end
@@ -231,7 +241,7 @@ for j1 = 1:length(selected_features)
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
 					for k3=1:3
-						tmp_im = extTrainDataSet(k1).data{k2}(:,:,k3);
+						tmp_im = extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,k3);
 						tmp_train_feat(max_train*(k1-1) + k2,k3) = std(tmp_im(:));
 					end
 				end
@@ -240,7 +250,7 @@ for j1 = 1:length(selected_features)
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
 					for k3=1:3
-						tmp_im = extEvalDataSet(k1).data{k2}(:,:,k3);
+						tmp_im = extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,k3);
 						tmp_eval_feat(max_eval*(k1-1) + k2,k3) = std(tmp_im(:));
 					end
 				end
@@ -261,7 +271,7 @@ for j1 = 1:length(selected_features)
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
 					for k3=1:3
-						tmp_train_feat(max_train*(k1-1) + k2,k3) = median(median(extTrainDataSet(k1).data{k2}(:,:,k3),1),2);
+						tmp_train_feat(max_train*(k1-1) + k2,k3) = median(median(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,k3),1),2);
 					end
 				end
 			end
@@ -269,7 +279,7 @@ for j1 = 1:length(selected_features)
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
 					for k3=1:3
-						tmp_eval_feat(max_eval*(k1-1) + k2,k3) = median(median(extEvalDataSet(k1).data{k2}(:,:,k3),1),2);
+						tmp_eval_feat(max_eval*(k1-1) + k2,k3) = median(median(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,k3),1),2);
 					end
 				end
 			end
@@ -290,7 +300,7 @@ for j1 = 1:length(selected_features)
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
 					for k3=1:3
-						tmp_train_feat(max_train*(k1-1) + k2,nbins*(k3-1)+1:nbins*k3) = imhist(extTrainDataSet(k1).data{k2}(:,:,k3),nbins);
+						tmp_train_feat(max_train*(k1-1) + k2,nbins*(k3-1)+1:nbins*k3) = imhist(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,k3),nbins);
 					end
 				end
 			end
@@ -298,7 +308,7 @@ for j1 = 1:length(selected_features)
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
 					for k3=1:3
-						tmp_eval_feat(max_eval*(k1-1) + k2,nbins*(k3-1)+1:nbins*k3) = imhist(extEvalDataSet(k1).data{k2}(:,:,k3),nbins);
+						tmp_eval_feat(max_eval*(k1-1) + k2,nbins*(k3-1)+1:nbins*k3) = imhist(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,k3),nbins);
 					end
 				end
 			end
@@ -311,7 +321,7 @@ for j1 = 1:length(selected_features)
 			
 			mapping=getmapping(neighbors,'riu2');
 			
-			nf = length(lbp(rgb2gray(extEvalDataSet(1).data{1}(26:75,26:75,:)),1,neighbors,mapping,'nh'))*3;
+			nf = length(lbp(rgb2gray(extEvalDataSet(1).data{1}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'))*3;
 			
 			disp(['number of features: ',num2str(nf)]);
 			
@@ -320,17 +330,17 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_train_feat(max_train*(k1-1) + k2,:) = [lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'), ...
-																lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),2,neighbors,mapping,'nh'),...
-																lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),3,neighbors,mapping,'nh')];
+					tmp_train_feat(max_train*(k1-1) + k2,:) = [ lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'), ...
+																lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),2,neighbors,mapping,'nh'),...
+																lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),3,neighbors,mapping,'nh')];
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_eval_feat(max_eval*(k1-1) + k2,:) = [lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'), ...
-															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),2,neighbors,mapping,'nh'), ...
-															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),3,neighbors,mapping,'nh')];
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = [lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'), ...
+															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),2,neighbors,mapping,'nh'), ...
+															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),3,neighbors,mapping,'nh')];
 				end
 			end
 			
@@ -342,7 +352,7 @@ for j1 = 1:length(selected_features)
 			
 			mapping=getmapping(neighbors,'ri');
 			
-			nf = length(lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'));
+			nf = length(lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'));
 			
 			disp(['number of features: ',num2str(nf)]);
 			
@@ -351,13 +361,13 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
@@ -378,13 +388,13 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+					tmp_train_feat(max_train*(k1-1) + k2,:) = lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh');
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh');
 				end
 			end
 			
@@ -401,7 +411,7 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_feat01 = cont(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors);
+					tmp_feat01 = cont(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors);
 					tmp_feat02 = imresize(tmp_feat01,[6 6]);
 					tmp_train_feat(max_train*(k1-1) + k2,:) = tmp_feat02(:)';
 				end
@@ -409,7 +419,7 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_feat01 = cont(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors);
+					tmp_feat01 = cont(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors);
 					tmp_feat02 = imresize(tmp_feat01,[6 6]);
 					tmp_eval_feat(max_eval*(k1-1) + k2,:) = tmp_feat02(:)';
 				end
@@ -423,7 +433,7 @@ for j1 = 1:length(selected_features)
 			
 			mapping=getmapping(neighbors,'ri');
 			
-			nf = length(lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'))*3;
+			nf = length(lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'))*3;
 			
 			disp(['number of features: ',num2str(nf)]);
 			
@@ -432,17 +442,17 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_train_feat(max_train*(k1-1) + k2,:) = [lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'), ...
-															   lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),2,neighbors,mapping,'nh'), ...
-															   lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),3,neighbors,mapping,'nh')];
+					tmp_train_feat(max_train*(k1-1) + k2,:) = [lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'), ...
+															   lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),2,neighbors,mapping,'nh'), ...
+															   lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),3,neighbors,mapping,'nh')];
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_eval_feat(max_eval*(k1-1) + k2,:) = [lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'), ...
-															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),2,neighbors,mapping,'nh'), ...
-															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),3,neighbors,mapping,'nh')];
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = [lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'), ...
+															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),2,neighbors,mapping,'nh'), ...
+															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),3,neighbors,mapping,'nh')];
 				end
 			end
 			
@@ -454,7 +464,7 @@ for j1 = 1:length(selected_features)
 			
 			mapping=getmapping(neighbors,'u2');
 			
-			nf = length(lbp(rgb2gray(extEvalDataSet(1).data{1}(26:75,26:75,:)),1,neighbors,mapping,'nh'))*3;
+			nf = length(lbp(rgb2gray(extEvalDataSet(1).data{1}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'))*3;
 			
 			disp(['number of features: ',num2str(nf)]);
 			
@@ -463,17 +473,17 @@ for j1 = 1:length(selected_features)
 			
 			for k1 = 1:length(extTrainDataSet)
 				for k2=1:max_train
-					tmp_train_feat(max_train*(k1-1) + k2,:) = [lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'), ...
-															   lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),2,neighbors,mapping,'nh'), ...
-															   lbp(rgb2gray(extTrainDataSet(k1).data{k2}(26:75,26:75,:)),3,neighbors,mapping,'nh')];
+					tmp_train_feat(max_train*(k1-1) + k2,:) = [lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'), ...
+															   lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),2,neighbors,mapping,'nh'), ...
+															   lbp(rgb2gray(extTrainDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),3,neighbors,mapping,'nh')];
 				end
 			end
 			
 			for k1 = 1:length(extEvalDataSet)
 				for k2=1:max_eval
-					tmp_eval_feat(max_eval*(k1-1) + k2,:) = [lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),1,neighbors,mapping,'nh'), ...
-															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),2,neighbors,mapping,'nh'), ...
-															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(26:75,26:75,:)),3,neighbors,mapping,'nh')];
+					tmp_eval_feat(max_eval*(k1-1) + k2,:) = [lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),1,neighbors,mapping,'nh'), ...
+															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),2,neighbors,mapping,'nh'), ...
+															 lbp(rgb2gray(extEvalDataSet(k1).data{k2}(51-L1:51+L1,51-L1:51+L1,:)),3,neighbors,mapping,'nh')];
 				end
 			end
 			
@@ -486,6 +496,7 @@ for j1 = 1:length(selected_features)
 	
 end
 
+Ltot = 2*L1+1;
 
 if normalize
 	[train_features_norm, m_t, std_t] = normalizeF(train_features);
@@ -495,10 +506,12 @@ end
 if save_data
 	if exist('filename','var')
 		if isempty(strfind(filename,'.mat'))
-			filename = strcat(filename,'.mat');
+			filename = strcat(filename,'_L',num2str(Ltot,'%03d'),'.mat');
+		else
+			filename = strcat(strtok(filename,'.mat'),'_L',num2str(Ltot,'%03d'),'.mat');
 		end
 	else
-		filename = 'features.mat';
+		filename = strcat('features','_L',num2str(Ltot,'%03d'),'.mat');
 	end
 	
 	if normalize

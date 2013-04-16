@@ -30,9 +30,9 @@ for k1=1:5
 		case 2
 			feats = 'MSiHLV';
 		case 3
-			feats = 'MSiHrV';
+			feats = 'MSiHRV';
 		case 4
-			feats = 'MSiHuV';
+			feats = 'MSiHUV';
 	end
 	
 	[ t_feat01, t_cl01, e_feat01, e_cl01, t_feat_n01, e_feat_n01 ] = extractFeatures(extTrainDataSet, extEvalDataSet, feats, extendT, extendE, normalize, save_data, strcat(feats,'_norm_extA.mat'));
