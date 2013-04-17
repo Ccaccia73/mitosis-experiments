@@ -15,7 +15,7 @@ feats = 'iVHL';
 extendT = true;
 extendE = true;
 normalize = true;
-save_data = true;
+save_data = false;
 show_data = false;
 
 mkdir(feats);
@@ -25,7 +25,7 @@ mkdir(feats);
 
 
 params = struct;
-params.SMVprob = '-t 3';
+% params.SMVprob = '-t 3';
 
 if extendT
 	numdata = length(extTrainDataSet) * 8;
@@ -43,6 +43,7 @@ n_trials = ceil(3 * numdata ./ sample_size );
 
 n_trials(end) = 1;
 
+tot_trials = cumsum(n_trials);
 
 results = cell(length(subset_size),1);
 
@@ -50,6 +51,9 @@ for j1 = 1:length(subset_size)
 	results{j1} = zeros(n_trials(j1),4);
 end
 
+old_pc = -1;
+
+hwb = waitbar(0,'1','Name','Running experiments.. ','CreateCancelBtn','setappdata(gcbf,''canceling'',1)');
 
 rng('default');
 
@@ -77,6 +81,19 @@ for k1 = 1:length(subset_size)
 		res = classify_data( 'pr', params, t_feat_n, t_cl, e_feat_n_all, e_cl_all, extendE, show_data, save_data, strcat('class_',feats,'_p',num2str(subset_size(k1)*100,'%03d'),'_e',num2str(k2,'%03d'),'_norm_extA.mat'), strcat('extA-ds_norm-feat_',feats) );
 		
 		results{k1}(k2,:) = res(:)';
+		
+		pc = floor( (tot_trials(k1-1) + k2) / tot_trials(end) * 100);
+		
+		
+		if getappdata(hwb,'canceling')
+			break
+		end
+		
+		if pc ~= old_pc
+			waitbar(pc/100,hwb,sprintf('Progress: %d%%',pc))
+			old_pc = pc;
+		end
+
 		
 		
 	end
@@ -176,6 +193,6 @@ hold off
 saveas(h,strcat(feats,'/','RF_accuracy'),'png');
 
 
-save('var_size.mat','-regexp','^SVM|^RF|^SC');
+save(strcat(feats,'_exp04.mat'),'-regexp','^SVM|^RF|^SC','results','subset_size','sample_size','n_trials');
 
 diary off

@@ -15,7 +15,7 @@ load('../../extTrainDataSet.mat');
 load('../../extEvalDataSet.mat');
 
 
-for h1 = 1:3
+for h1 = 2:3
 	
 	switch h1
 		case 1
@@ -51,11 +51,11 @@ for h1 = 1:3
 	
 	
 	
-	SVM_AUC = zeros(n,4);
-	SVM_acc = zeros(n,4);
+	SVM_AUC = zeros(n,1);
+	SVM_acc = zeros(n,1);
 	
-	RF_AUC = zeros(n,4);
-	RF_acc = zeros(n,4);
+	RF_AUC = zeros(n,1);
+	RF_acc = zeros(n,1);
 	
 	feat_list = cell(n,1);
 	
@@ -83,7 +83,7 @@ for h1 = 1:3
 			end
 		end
 		
-		feat_list(k1) = feats;
+		feat_list{k1} = feats;
 		
 		
 		disp('°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°')
@@ -92,19 +92,20 @@ for h1 = 1:3
 		
 		
 		params = struct;
-		params.SMVstd = '-q';
-		params.SMVprob = '-q';
+		% params.SMVstd = '-q';
+		% params.SMVprob = '-q';
+		save_data = true;
 		
 		res = classify_data( 'pr', params, t_feat_n01, t_cl01, e_feat_n01, e_cl01, extendE, show_data, save_data, strcat('class_',feats,'_norm_extA.mat'), strcat('feat_',feats,'-extA-ds_norm') );
 		
-		SVM_AUC(k1,1) = res(1,1);
-		SVM_acc(k1,2) = res(2,1);
-		RF_AUC(k1,3) = res(1,2);
-		RF_acc(k1,4) = res(2,2);
+		SVM_AUC(k1) = res(1,1);
+		SVM_acc(k1) = res(2,1);
+		RF_AUC(k1) = res(1,2);
+		RF_acc(k1) = res(2,2);
 		
 	end
 	
-	save(strcat(features_type,'_results,mat','-regexp','^SVM|^RF|^SC','feature_list'));
+	save(strcat(features_type,'_results.mat'),'feat_list','-regexp','^SVM|^RF|^SC');
 
 
 end
