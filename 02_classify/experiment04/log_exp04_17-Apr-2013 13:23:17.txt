@@ -1,0 +1,4085 @@
+[Warning: Directory already exists.] 
+[> In <a href="matlab: opentoline('/home/claudio/Development/Mitosi/01_Thesis/02_classify/experiment04/experiment04.m',24,1)">experiment04 at 24</a>] 
+Feature <25 central intensities> selected
+number of features: 25
+Feature <pixel Variance - 36 means> selected
+number of features: 36
+Feature <histograms of color distributions> selected
+number of features: 48
+Feature <18 riu2 local binary pattern> selected 3 different RADII 1-2-3
+number of features: 30
+Subset size: 0.01
+Iter: 1 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 18 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 19 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 20 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 21 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 22 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 23 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 24 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 25 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 26 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 27 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 28 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 29 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 30 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 31 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 32 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 33 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 34 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 35 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 36 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 37 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 38 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 39 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 40 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 41 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 42 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 43 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 44 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 45 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 46 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 47 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 48 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 49 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 50 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 51 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 52 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 53 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 54 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 55 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 56 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 57 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 58 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 59 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 60 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 61 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 62 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 63 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 64 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 65 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 66 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 67 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 68 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 69 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 70 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 71 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 72 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 73 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 74 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 75 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 76 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 77 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 78 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 79 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 80 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 81 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 82 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 83 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 84 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 85 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 86 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 87 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 88 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 89 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 90 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 91 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 92 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 93 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 94 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 95 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 96 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 97 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 98 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 99 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 100 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 101 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 102 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 103 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 104 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 105 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 106 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 107 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 108 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 109 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 110 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 111 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 112 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 113 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 114 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 115 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 116 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 117 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 118 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 119 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 120 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 121 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 122 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 123 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 124 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 125 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 126 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 127 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 128 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 129 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 130 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 131 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 132 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 133 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 134 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 135 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 136 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 137 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 138 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 139 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 140 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 141 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 142 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 143 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 144 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 145 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 146 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 147 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 148 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 149 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 150 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 151 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 152 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 153 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 154 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 155 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 156 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 157 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 158 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 159 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 160 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 161 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 162 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 163 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 164 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 165 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 166 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 167 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 168 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 169 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 170 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 171 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 172 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 173 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 174 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 175 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 176 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 177 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 178 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 179 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 180 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 181 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 182 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 183 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 184 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 185 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 186 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 187 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 188 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 189 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 190 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 191 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 192 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 193 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 194 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 195 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 196 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 197 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 198 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 199 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 200 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 201 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 202 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 203 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 204 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 205 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 206 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 207 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 208 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 209 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 210 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 211 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 212 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 213 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 214 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 215 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 216 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 217 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 218 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 219 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 220 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 221 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 222 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 223 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 224 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 225 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 226 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 227 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 228 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 229 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 230 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 231 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 232 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 233 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 234 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 235 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 236 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 237 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 238 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 239 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 240 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 241 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 242 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 243 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 244 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 245 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 246 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 247 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 248 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 249 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 250 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 251 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 252 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 253 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 254 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 255 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 256 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 257 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 258 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 259 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 260 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 261 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 262 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 263 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 264 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 265 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 266 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 267 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 268 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 269 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 270 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 271 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 272 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 273 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 274 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 275 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 276 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 277 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 278 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 279 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 280 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 281 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 282 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 283 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 284 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 285 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 286 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 287 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 288 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 289 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 290 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 291 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 292 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 293 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 294 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 295 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 296 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 297 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 298 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 299 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 300 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 301 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 302 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 303 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 304 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 305 of 305
+sample size: 34
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.02
+Iter: 1 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 18 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 19 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 20 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 21 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 22 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 23 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 24 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 25 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 26 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 27 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 28 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 29 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 30 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 31 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 32 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 33 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 34 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 35 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 36 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 37 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 38 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 39 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 40 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 41 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 42 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 43 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 44 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 45 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 46 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 47 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 48 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 49 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 50 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 51 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 52 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 53 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 54 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 55 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 56 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 57 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 58 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 59 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 60 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 61 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 62 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 63 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 64 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 65 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 66 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 67 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 68 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 69 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 70 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 71 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 72 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 73 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 74 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 75 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 76 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 77 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 78 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 79 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 80 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 81 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 82 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 83 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 84 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 85 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 86 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 87 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 88 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 89 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 90 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 91 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 92 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 93 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 94 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 95 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 96 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 97 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 98 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 99 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 100 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 101 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 102 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 103 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 104 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 105 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 106 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 107 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 108 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 109 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 110 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 111 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 112 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 113 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 114 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 115 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 116 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 117 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 118 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 119 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 120 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 121 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 122 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 123 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 124 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 125 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 126 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 127 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 128 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 129 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 130 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 131 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 132 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 133 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 134 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 135 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 136 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 137 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 138 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 139 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 140 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 141 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 142 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 143 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 144 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 145 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 146 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 147 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 148 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 149 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 150 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 151 of 151
+sample size: 69
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.04
+Iter: 1 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 18 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 19 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 20 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 21 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 22 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 23 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 24 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 25 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 26 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 27 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 28 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 29 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 30 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 31 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 32 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 33 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 34 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 35 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 36 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 37 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 38 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 39 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 40 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 41 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 42 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 43 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 44 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 45 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 46 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 47 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 48 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 49 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 50 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 51 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 52 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 53 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 54 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 55 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 56 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 57 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 58 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 59 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 60 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 61 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 62 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 63 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 64 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 65 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 66 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 67 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 68 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 69 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 70 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 71 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 72 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 73 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 74 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 75 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 76 of 76
+sample size: 138
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.06
+Iter: 1 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 18 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 19 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 20 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 21 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 22 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 23 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 24 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 25 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 26 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 27 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 28 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 29 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 30 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 31 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 32 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 33 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 34 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 35 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 36 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 37 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 38 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 39 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 40 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 41 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 42 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 43 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 44 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 45 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 46 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 47 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 48 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 49 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 50 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 51 of 51
+sample size: 207
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.08
+Iter: 1 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 18 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 19 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 20 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 21 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 22 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 23 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 24 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 25 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 26 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 27 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 28 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 29 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 30 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 31 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 32 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 33 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 34 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 35 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 36 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 37 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 38 of 38
+sample size: 276
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.1
+Iter: 1 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 18 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 19 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 20 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 21 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 22 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 23 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 24 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 25 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 26 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 27 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 28 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 29 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 30 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 31 of 31
+sample size: 345
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.12
+Iter: 1 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 18 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 19 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 20 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 21 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 22 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 23 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 24 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 25 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 26 of 26
+sample size: 414
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.14
+Iter: 1 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 18 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 19 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 20 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 21 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 22 of 22
+sample size: 483
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.16
+Iter: 1 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 18 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 19 of 19
+sample size: 552
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.18
+Iter: 1 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 17 of 17
+sample size: 622
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.2
+Iter: 1 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 15 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 16 of 16
+sample size: 691
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.22
+Iter: 1 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 14 of 14
+sample size: 760
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.24
+Iter: 1 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 13 of 13
+sample size: 829
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.26
+Iter: 1 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 12 of 12
+sample size: 898
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.28
+Iter: 1 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 11
+sample size: 967
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.3
+Iter: 1 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 11 of 11
+sample size: 1036
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.32
+Iter: 1 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 10 of 10
+sample size: 1105
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.34
+Iter: 1 of 9
+sample size: 1175
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 9
+sample size: 1175
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 9
+sample size: 1175
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 9
+sample size: 1175
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 9
+sample size: 1175
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 9
+sample size: 1175
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 9
+sample size: 1175
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 9
+sample size: 1175
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 9
+sample size: 1175
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.36
+Iter: 1 of 9
+sample size: 1244
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 9
+sample size: 1244
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 9
+sample size: 1244
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 9
+sample size: 1244
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 9
+sample size: 1244
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 9
+sample size: 1244
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 9
+sample size: 1244
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 9
+sample size: 1244
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 9 of 9
+sample size: 1244
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.38
+Iter: 1 of 8
+sample size: 1313
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 8
+sample size: 1313
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 8
+sample size: 1313
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 8
+sample size: 1313
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 8
+sample size: 1313
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 8
+sample size: 1313
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 8
+sample size: 1313
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 8
+sample size: 1313
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.4
+Iter: 1 of 8
+sample size: 1382
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 8
+sample size: 1382
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 8
+sample size: 1382
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 8
+sample size: 1382
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 8
+sample size: 1382
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 8
+sample size: 1382
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 8
+sample size: 1382
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 8
+sample size: 1382
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.42
+Iter: 1 of 8
+sample size: 1451
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 8
+sample size: 1451
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 8
+sample size: 1451
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 8
+sample size: 1451
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 8
+sample size: 1451
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 8
+sample size: 1451
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 8
+sample size: 1451
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 8 of 8
+sample size: 1451
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.44
+Iter: 1 of 7
+sample size: 1520
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 7
+sample size: 1520
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 7
+sample size: 1520
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 7
+sample size: 1520
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 7
+sample size: 1520
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 7
+sample size: 1520
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 7
+sample size: 1520
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.46
+Iter: 1 of 7
+sample size: 1589
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 7
+sample size: 1589
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 7
+sample size: 1589
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 7
+sample size: 1589
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 7
+sample size: 1589
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 7
+sample size: 1589
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 7
+sample size: 1589
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.48
+Iter: 1 of 7
+sample size: 1658
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 7
+sample size: 1658
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 7
+sample size: 1658
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 7
+sample size: 1658
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 7
+sample size: 1658
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 7
+sample size: 1658
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 7 of 7
+sample size: 1658
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.5
+Iter: 1 of 6
+sample size: 1728
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 6
+sample size: 1728
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 6
+sample size: 1728
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 6
+sample size: 1728
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 6
+sample size: 1728
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 6
+sample size: 1728
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.52
+Iter: 1 of 6
+sample size: 1797
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 6
+sample size: 1797
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 6
+sample size: 1797
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 6
+sample size: 1797
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 6
+sample size: 1797
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 6
+sample size: 1797
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.54
+Iter: 1 of 6
+sample size: 1866
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 6
+sample size: 1866
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 6
+sample size: 1866
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 6
+sample size: 1866
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 6
+sample size: 1866
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 6
+sample size: 1866
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.56
+Iter: 1 of 6
+sample size: 1935
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 6
+sample size: 1935
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 6
+sample size: 1935
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 6
+sample size: 1935
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 6
+sample size: 1935
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 6
+sample size: 1935
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.58
+Iter: 1 of 6
+sample size: 2004
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 6
+sample size: 2004
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 6
+sample size: 2004
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 6
+sample size: 2004
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 6
+sample size: 2004
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 6
+sample size: 2004
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.6
+Iter: 1 of 6
+sample size: 2073
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 6
+sample size: 2073
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 6
+sample size: 2073
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 6
+sample size: 2073
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 6
+sample size: 2073
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 6 of 6
+sample size: 2073
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.62
+Iter: 1 of 5
+sample size: 2142
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 5
+sample size: 2142
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 5
+sample size: 2142
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 5
+sample size: 2142
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 5
+sample size: 2142
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.64
+Iter: 1 of 5
+sample size: 2211
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 5
+sample size: 2211
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 5
+sample size: 2211
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 5
+sample size: 2211
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 5
+sample size: 2211
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.66
+Iter: 1 of 5
+sample size: 2280
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 5
+sample size: 2280
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 5
+sample size: 2280
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 5
+sample size: 2280
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 5
+sample size: 2280
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.68
+Iter: 1 of 5
+sample size: 2350
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 5
+sample size: 2350
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 5
+sample size: 2350
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 5
+sample size: 2350
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 5
+sample size: 2350
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.7
+Iter: 1 of 5
+sample size: 2419
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 5
+sample size: 2419
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 5
+sample size: 2419
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 5
+sample size: 2419
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 5
+sample size: 2419
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.72
+Iter: 1 of 5
+sample size: 2488
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 5
+sample size: 2488
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 5
+sample size: 2488
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 5
+sample size: 2488
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 5
+sample size: 2488
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.74
+Iter: 1 of 5
+sample size: 2557
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 5
+sample size: 2557
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 5
+sample size: 2557
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 5
+sample size: 2557
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 5 of 5
+sample size: 2557
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.76
+Iter: 1 of 4
+sample size: 2626
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 2626
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 2626
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 2626
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.78
+Iter: 1 of 4
+sample size: 2695
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 2695
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 2695
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 2695
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.8
+Iter: 1 of 4
+sample size: 2764
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 2764
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 2764
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 2764
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.82
+Iter: 1 of 4
+sample size: 2833
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 2833
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 2833
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 2833
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.84
+Iter: 1 of 4
+sample size: 2903
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 2903
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 2903
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 2903
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.86
+Iter: 1 of 4
+sample size: 2972
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 2972
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 2972
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 2972
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.88
+Iter: 1 of 4
+sample size: 3041
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 3041
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 3041
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 3041
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.9
+Iter: 1 of 4
+sample size: 3110
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 3110
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 3110
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 3110
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.92
+Iter: 1 of 4
+sample size: 3179
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 3179
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 3179
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 3179
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.94
+Iter: 1 of 4
+sample size: 3248
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 3248
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 3248
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 3248
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.96
+Iter: 1 of 4
+sample size: 3317
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 3317
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 3317
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 3317
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 0.98
+Iter: 1 of 4
+sample size: 3386
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 2 of 4
+sample size: 3386
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 3 of 4
+sample size: 3386
+	Setting to defaults 500 trees and mtry=11
+
+Iter: 4 of 4
+sample size: 3386
+	Setting to defaults 500 trees and mtry=11
+
+Subset size: 1
+Iter: 1 of 1
+sample size: 3456
+	Setting to defaults 500 trees and mtry=11
+

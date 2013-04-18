@@ -11,7 +11,10 @@ diary(logfile)
 load('../../extTrainDataSet.mat');
 load('../../extEvalDataSet.mat');
 
-feats = 'iVHL';
+% feats = 'iVHL';
+% feats = 'MiVHU';
+feats = 'MSVHR';
+
 extendT = true;
 extendE = true;
 normalize = true;
@@ -43,7 +46,7 @@ n_trials = ceil(3 * numdata ./ sample_size );
 
 n_trials(end) = 1;
 
-tot_trials = cumsum(n_trials);
+tot_trials = cumsum(n_trials.*sample_size);
 
 results = cell(length(subset_size),1);
 
@@ -82,7 +85,7 @@ for k1 = 1:length(subset_size)
 		
 		results{k1}(k2,:) = res(:)';
 		
-		pc = floor( (tot_trials(k1-1) + k2) / tot_trials(end) * 100);
+		pc = floor( ( tot_trials(k1) - n_trials(k1)*sample_size(k1) + k2*sample_size(k1) ) / tot_trials(end) * 100);
 		
 		
 		if getappdata(hwb,'canceling')
@@ -98,6 +101,8 @@ for k1 = 1:length(subset_size)
 		
 	end
 end
+
+close(hwb);
 
 SVM_AUC = zeros(length(subset_size),2);
 SVM_acc = zeros(length(subset_size),2);
@@ -193,6 +198,6 @@ hold off
 saveas(h,strcat(feats,'/','RF_accuracy'),'png');
 
 
-save(strcat(feats,'_exp04.mat'),'-regexp','^SVM|^RF|^SC','results','subset_size','sample_size','n_trials');
+save(strcat(feats,'_exp04_set_size.mat'),'-regexp','^SVM|^RF|^SC','results','subset_size','sample_size','n_trials');
 
 diary off
