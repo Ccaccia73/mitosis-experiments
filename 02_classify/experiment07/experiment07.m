@@ -15,7 +15,7 @@ old_pc = -1;
 
 h = waitbar(0,'1','Name','Running experiments.. ','CreateCancelBtn','setappdata(gcbf,''canceling'',1)');
 
-for k1=1:3
+for k1=2:3
 	
 	switch k1
 		case 1
@@ -56,8 +56,8 @@ for k1=1:3
 	
 	
 	
-	SVM_AUC = zeros(nc,nl);
-	SVM_acc = zeros(nc,nl);
+% 	SVM_AUC = zeros(nc,nl);
+% 	SVM_acc = zeros(nc,nl);
 	
 	RF_AUC = zeros(nc,nl);
 	RF_acc = zeros(nc,nl);
@@ -105,19 +105,19 @@ for k1=1:3
 			params.SMVstd = '-q';
 			params.SMVprob = '-q';
 			
-			res = classify_data( 'pr', params, t_feat_n01, t_cl01, e_feat_n01, e_cl01, extendE, show_data, save_data, strcat('class_',feats,'_norm_extA.mat'), strcat('feat_',feats,'-extA-ds_norm') );
+			res = classify_data( 'r', params, t_feat_n01, t_cl01, e_feat_n01, e_cl01, extendE, show_data, save_data, strcat('class_',feats,'_norm_extA.mat'), strcat('feat_',feats,'-extA-ds_norm') );
 			
-			SVM_AUC(k2,k3) = res(1,1);
-			SVM_acc(k2,k3) = res(2,1);
-			RF_AUC(k2,k3) = res(1,2);
-			RF_acc(k2,k3) = res(2,2);
+% 			SVM_AUC(k2,k3) = res(1,1);
+% 			SVM_acc(k2,k3) = res(2,1);
+			RF_AUC(k2,k3) = res(1,1);
+			RF_acc(k2,k3) = res(2,1);
 			
 		end
 		
-		feature_list(k2) = feats;
+		feature_list{k2} = feats;
 	end
 	
-	save(strcat(features_type,'_L_results,mat','-regexp','^SVM|^RF|^SC','feature_list'));
+	save(strcat(features_type,'_L_results.mat'),'-regexp','^SVM|^RF|^SC','feature_list');
 	
 	switch k1
 		case 1
