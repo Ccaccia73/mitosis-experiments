@@ -20,6 +20,8 @@ function [ train_features, train_classes, eval_features, eval_classes, train_fea
 %	-	r: lbp ri radius 1, 8 neighbors
 %	-	u: lbp u2 radius 1, 8 neighbors
 %	-	V: pixel variance, 36 elements
+%	-	R: lbp ri radii 1-2-3, 8 neighbors
+%	-	U: lbp u2 radii 1-2-3, 8 neighbors
 %
 %	ext_train: if to use extended trainset (4 rotations and 4 mirrorings)
 %

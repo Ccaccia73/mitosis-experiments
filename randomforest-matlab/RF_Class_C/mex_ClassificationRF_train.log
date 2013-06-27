@@ -1,0 +1,1133 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=mex 2013.5.18)  30 MAY 2013 12:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**src/mex_ClassificationRF_train.cpp src/classRF.cpp tempbuild/classTree.o temp
+build/rfutils.o rfsub.o tempbuild/cokus.o -o mexClassRF_train -lgfortran -lm -D
+MATLAB -g
+(./src/mex_ClassificationRF_train.cpp
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+! You can't use `macro parameter character #' in vertical mode.
+l.1 #
+     include <math.h>
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.2 #
+     include <memory.h>
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.3 #
+     include "mex.h"
+? 
+! You can't use `macro parameter character #' in vertical mode.
+l.5 #
+     define DEBUG_ON 0
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.5 #define DEBUG_
+                  ON 0
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.16 
+     
+? 
+
+Overfull \hbox (6.60677pt too wide) in paragraph at lines 5--16
+\teni nodesize; int \tensy ^^C \teni outcl; int \tensy ^^C \teni counttr; doubl
+e \tensy ^^C \teni prox; double \tensy ^^C \teni imprt; double \tensy ^^C \teni
+ impsd; double \tensy ^^C \teni impmat; int \tensy ^^C \teni nrnodes; int \tens
+y ^^C|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\teni n
+.\teni o
+.\teni d
+.\teni e
+.\teni s
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.27     double *_
+                  tmp_d;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.28 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.30     int p_
+               size = mxGetM(prhs[0]);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.35 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.36     if (DEBUG_
+                   ON){
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.41 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.43 	double nclass_
+                    d = ((double)mxGetScalar(prhs[2]));
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.46 
+     
+? 
+
+Overfull \hbox (4.80307pt too wide) in paragraph at lines 42--46
+[]\tenrm int nclass = (int)((double)mxGetScalar(prhs[2])); do-uble nclass$[] = 
+((\teni double\tenrm )\teni mxGetScalar\tenrm (\teni prhs\tenrm [2])); \teni in
+t \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\kern-0.27779
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.48 	if (DEBUG_
+                ON){ mexPrintf("n_size %d, p_size %d, nclass %d (%f)",n_size...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.56 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.56 
+     
+? 
+
+Overfull \hbox (1258.34193pt too wide) in paragraph at lines 48--56
+[]\tenrm if (DEBUG$[]\teni N\tenrm )[]$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm f
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm (
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.63     int oob_
+                 prox  =Options[4];
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.70 
+     
+? 
+
+Overfull \hbox (80.89156pt too wide) in paragraph at lines 57--70
+\tenrm =Options[3]; int oob$[]\teni rox \tenrm = \teni Options\tenrm [4]; \teni
+ intdo[]race \tenrm = \teni Options\tenrm [5]; \teni if\tenrm (\teni DEBUG[]N\t
+enrm )[]\teni else[]intkeep[]orest \tenrm =|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\tenrm =
+.\tenrm O
+.\tenrm p
+.\tenrm t
+.\tenrm i
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.73         nsample = 2*n_
+                           size;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.76 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.84     if (DEBUG_
+                   ON) mexPrintf("\nntree %d, mtry=%d\n",ntree,mtry);
+? 
+! Undefined control sequence.
+l.84     if (DEBUG_ON) mexPrintf("\nntree
+                                          %d, mtry=%d\n",ntree,mtry);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.85 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.89 ...mxCreateNumericMatrix(nclass, 1, mxDOUBLE_
+                                                  CLASS, 0);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.92 
+     
+? 
+
+Overfull \hbox (96.57158pt too wide) in paragraph at lines 86--92
+\tenrm plied priors plhs[10] = mxCre-ate-Do-uble-Sca-lar(mtry); plhs[3] = mxCre
+-ate-Nu-me-ric-Ma-trix(nclass, 1, mxDOUBLE$[]\teni LASS; \tenrm 0); \teni doubl
+e \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm p
+.\tenrm l
+.\tenrm i
+.\tenrm e
+.\tenrm d
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.94     memcpy(classwt,_
+                         tmp_d,nclass*sizeof(double));
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.95 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.97 ...mxCreateNumericMatrix(nclass, 1, mxDOUBLE_
+                                                  CLASS, 0);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.100 
+      
+? 
+
+Overfull \hbox (98.00786pt too wide) in paragraph at lines 97--100
+[]\tenrm plhs[4] = mxCre-ate-Nu-me-ric-Ma-trix(nclass, 1, mxDOUBLE$[]\teni LASS
+; \tenrm 0); \teni double \tensy ^^C \teni cutoff \tenrm = (\teni double\tensy 
+^^C\tenrm )\teni mxGetData\tenrm (\teni plhs\tenrm [4]);[] \teni mp[] \tenrm =|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm p
+.\tenrm l
+.\tenrm h
+.\tenrm s
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.102     memcpy(cutoff,_
+                         tmp_d,nclass*sizeof(double));
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.103 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.107 		if (DEBUG_
+                  ON){printf("%f,",cutoff[i]);}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.110 
+      
+? 
+
+Overfull \hbox (14.73795pt too wide) in paragraph at lines 104--110
+[]\tenrm for(i=0;i<nclass;i++) //clas-swt[i]=1; //cu-toff[i]=1/((double)nclass)
+; if (DEBUG$[]\teni N\tenrm )[]\teni intnodesize \tenrm =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm f
+.\tenrm o
+.\tenrm r
+.\tenrm (
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.111 ...xCreateNumericMatrix(nsample, 1, mxINT32_
+                                                  CLASS, 0);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.113 
+      
+? 
+
+Overfull \hbox (169.53085pt too wide) in paragraph at lines 111--113
+[]\tenrm plhs[11] = mxCre-ate-Nu-me-ric-Ma-trix(nsample, 1, mxINT32$[]\teni LAS
+S; \tenrm 0); \teni int \tensy ^^C \teni outcl \tenrm = (\teni int\tensy ^^C\te
+nrm )\teni mxGetData\tenrm (\teni plhs\tenrm [11]); \teni ==calloc\tenrm (\teni
+ nsample; sizeof\tenrm (\teni int\tenrm ));$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm p
+.\tenrm l
+.\tenrm h
+.\tenrm s
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.114 ...teNumericMatrix(nclass, nsample, mxINT32_
+                                                  CLASS, 0);
+? 
+! Interruption.
+<to be read again> 
+                   _
+l.114 ...teNumericMatrix(nclass, nsample, mxINT32_
+                                                  CLASS, 0);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.116 
+      
+? 
+! Interruption.
+<to be read again> 
+                   \par 
+l.116 
+      
+? ^^[^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? ^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? R
+OK, entering \nonstopmode...
+
+Overfull \hbox (136.32104pt too wide) in paragraph at lines 114--116
+[]\tenrm plhs[12] = mxCre-ate-Nu-me-ric-Ma-trix(nclass, nsam-ple, mxINT32$[]\te
+ni LASS; \tenrm 0); \teni int \tensy ^^C \teni counttr \tenrm = (\teni int\tens
+y ^^C\tenrm )\teni mxGetData\tenrm (\teni plhs\tenrm [12]); \teni ==calloc\tenr
+m (\teni nclass \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm p
+.\tenrm l
+.\tenrm h
+.\tenrm s
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.119 ...NumericMatrix(nsample, nsample, mxDOUBLE_
+                                                  CLASS, 0);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.121     }
+           else{
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.129 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (50.66052pt too wide) in paragraph at lines 117--129
+[]\tenrm double* prox; if (pro-xi-mity) plhs[13] = mxCre-ate-Nu-me-ric-Ma-trix(
+nsample, nsam-ple, mxDOUBLE$[]\teni LASS; \tenrm 0); \teni prox \tenrm =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm d
+.\tenrm o
+.\tenrm u
+.\tenrm b
+.etc.
+
+
+Overfull \hbox (567.70518pt too wide) in paragraph at lines 117--129
+\tenrm (\teni double\tensy ^^C\tenrm )\teni mxGetData\tenrm (\teni plhs\tenrm [
+13]); \teni ==calloc\tenrm (\teni nsample \tensy ^^C \teni nsample; sizeof\tenr
+m (\teni double\tenrm )); \teni else[]double \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm (
+.\teni d
+.\teni o
+.\teni u
+.\teni b
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.131         plhs[14] = mxCreateNumericMatrix(n_
+                                                 size, p_size, mxDOUBLE_CLAS...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.133     }
+           else{
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.138 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (188.5953pt too wide) in paragraph at lines 130--138
+[]\tenrm if (lo-ca-lImp) plhs[14] = mxCreateNumericMatrix(n$[]\teni ize; p[]ize
+; mxDOUBLE[]LASS; \tenrm 0); \teni impmat \tenrm = (\teni double\tensy ^^C\tenr
+m )\teni mxGetData\tenrm (\teni plhs\tenrm [14]); \teni ==calloc\tenrm (\teni n
+[]ize \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm f
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm (
+.etc.
+
+
+Overfull \hbox (326.62527pt too wide) in paragraph at lines 130--138
+\teni p[]ize; sizeof\tenrm (\teni double\tenrm )); \teni else[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\teni p
+.\hbox(3.01389+0.0)x4.27432, shifted 1.49998
+..\seveni s
+.\teni i
+.\teni z
+.\kern0.4398
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.140         plhs[15] = mxCreateNumericMatrix(p_
+                                                 size,(nclass+2), mxDOUBLE_C...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.142 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (14.75334pt too wide) in paragraph at lines 139--142
+[]\tenrm if (im-por-tance) plhs[15] = mxCreateNumericMatrix(p$[]\teni ize; \ten
+rm (\teni nclass \tenrm + 2)\teni ; mxDOUBLE[]LASS; \tenrm 0); \teni plhs\tenrm
+ [16] =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm f
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm (
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.143 ...double*) mxGetData(plhs[15]); //calloc(p_
+                                                  size*(nclass+2),sizeof(dou...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.145     }
+           else{
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.148 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.148 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (176.18373pt too wide) in paragraph at lines 143--148
+[]\tenrm impout=(double*) mxGet-Data(plhs[15]); //calloc(p$[]\teni ize \tensy ^
+^C \tenrm (\teni nclass \tenrm + 2)\teni ; sizeof\tenrm (\teni double\tenrm ));
+ \teni impSD \tenrm = (\teni double\tensy ^^C\tenrm )\teni mxGetData\tenrm (\te
+ni plhs\tenrm [16]); \teni ==calloc\tenrm (\teni p[]ize \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm m
+.\tenrm p
+.\kern0.27779
+.etc.
+
+
+Overfull \hbox (295.1253pt too wide) in paragraph at lines 143--148
+\tenrm (\teni nclass \tenrm + 1)\teni ; sizeof\tenrm (\teni double\tenrm )); \t
+eni else[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm (
+.\teni n
+.\teni c
+.\teni l
+.\kern0.19678
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.149 ...double*) mxGetData(plhs[15]); //calloc(p_
+                                                  size,sizeof(double));
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.151     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.153 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (236.92287pt too wide) in paragraph at lines 149--153
+[]\tenrm impout=(double*) mxGet-Data(plhs[15]); //calloc(p$[]\teni ize; sizeof\
+tenrm (\teni double\tenrm )); \teni impSD \tenrm = (\teni double\tensy ^^C\tenr
+m )\teni mxGetData\tenrm (\teni plhs\tenrm [16]); \teni ==calloc\tenrm (1\teni 
+; sizeof\tenrm (\teni double\tenrm )); \teni intnrnodes \tenrm =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm m
+.\tenrm p
+.\kern0.27779
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.154     if (DEBUG_
+                    ON) { mexPrintf("\nnrnodes=%d, nsum=%d, nodesize=%d, mtr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.154     if (DEBUG_ON) { mexPrintf("\nnrnodes
+                                              =%d, nsum=%d, nodesize=%d, mtr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.155 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.155 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.157 ...CreateNumericMatrix(nrnodes, nt, mxINT32_
+                                                  CLASS, 0);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.159 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (84.47495pt too wide) in paragraph at lines 156--159
+[]\tenrm //int* ndbig-tree = (int*) cal-loc(ntree,sizeof(int)); plhs[9] = mxCre
+-ate-Nu-me-ric-Ma-trix(nrnodes, nt, mxINT32$[]\teni LASS; \tenrm 0); \teni int 
+\tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm /
+.\tenrm i
+.\tenrm n
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.161 ...CreateNumericMatrix(nrnodes, nt, mxINT32_
+                                                  CLASS, 0);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.163 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.165 ...CreateNumericMatrix(nrnodes, nt, mxINT32_
+                                                  CLASS, 0);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.167 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.169 ...eateNumericMatrix(nrnodes, 2*nt, mxINT32_
+                                                  CLASS, 0);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.171 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[1]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.174 ...CreateNumericMatrix(nrnodes, nt, mxINT32_
+                                                  CLASS, 0);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.176 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.179 ...reateNumericMatrix(nrnodes, nt, mxDOUBLE_
+                                                  CLASS, 0);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.181 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.182 ...umericMatrix((nclass+1), ntree, mxDOUBLE_
+                                                  CLASS, 0);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.184 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (184.04199pt too wide) in paragraph at lines 182--184
+[]\tenrm plhs[17] = mxCre-ate-Nu-me-ric-Ma-trix((nclass+1), ntree, mxDOUBLE$[]\
+teni LASS; \tenrm 0); \teni double \tensy ^^C \teni errtr \tenrm = (\teni doubl
+e\tensy ^^C\tenrm )\teni mxGetData\tenrm (\teni plhs\tenrm [17]); \teni ==callo
+c\tenrm ((\teni nclass \tenrm +|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm p
+.\tenrm l
+.\tenrm h
+.\tenrm s
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.195     if (keep_
+                   inbag){
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.209 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1656.16327pt too wide) in paragraph at lines 185--209
+\tenrm nts,sizeof(double)); int outclts = 1; int la-belts=0; do-uble pro-xts=1;
+ do-uble er-rts=1; int* in-bag; if (keep$[]\teni nbag\tenrm )[]\teni else[]if\t
+enrm (\teni DEBUG[]N\tenrm )[]\teni plhs\tenrm [0] =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm n
+.\kern-0.27779
+.\tenrm t
+.\tenrm s
+.\tenrm ,
+.etc.
+
+! Undefined control sequence.
+l.210     mexPrintf("\n
+                       ");
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.211     classRF(x, dimx, y, &
+                               nclass, cat, &maxcat,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.211     classRF(x, dimx, y, &nclass, cat, &
+                                             maxcat,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.212 	     sampsize, strata, Options, &
+                                        ntree, &mtry,&ipi,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.212 	     sampsize, strata, Options, &ntree, &
+                                                mtry,&ipi,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.212 ...ampsize, strata, Options, &ntree, &mtry,&
+                                                  ipi,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.213          classwt, cutoff, &
+                                 nodesize,outcl, counttr, prox,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.214 	     impout, impSD, impmat, &
+                                    nrnodes,ndbigtree, nodestatus,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.215 ...ar, treemap,nodepred, xbestsplit, errtr,&
+                                                  testdat,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.216          &
+                xts, &clts, &nts, countts,&outclts, labelts,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.216          &xts, &
+                      clts, &nts, countts,&outclts, labelts,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.216          &xts, &clts, &
+                             nts, countts,&outclts, labelts,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.216          &xts, &clts, &nts, countts,&
+                                           outclts, labelts,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.217          &
+                proxts, &errts,inbag);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.217          &proxts, &
+                         errts,inbag);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (3.10709pt too wide) in paragraph at lines 222--231
+[]\tenrm //free(outcl); //free(counttr); //free(errtr); free(countts); //free(i
+nbag); //free(impout); //free(impmat);|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm /
+.\tenrm f
+.\tenrm r
+.etc.
+
+! Interruption.
+l.764354506 
+            
+? 
+! Interruption.
+l.766708959 
+            
+? 
+! Emergency stop.
+l.766708959 
+            
+End of file on the terminal!
+
+Output written on mex_ClassificationRF_train.dvi (1 page, 8948 bytes).
